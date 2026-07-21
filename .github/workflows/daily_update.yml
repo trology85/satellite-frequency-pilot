@@ -14,21 +14,33 @@ jobs:
     timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: pip
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
+
       - name: Download pages with Chromium
-        run: python scripts/fetch_pages.py
+        run: |
+          python scripts/fetch_pages.py || {
+            echo "===== fetch_report.json ====="
+            cat reports/fetch_report.json || true
+            exit 1
+          }
+
       - name: Parse LyngSat tables
         run: python scripts/parse_lyngsat.py
+
       - name: Validate output
         run: python scripts/validate.py
+
       - name: Upload raw HTML and reports
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: lyngsat-pilot-${{ github.run_number }}
@@ -36,6 +48,7 @@ jobs:
           path: |
             raw/*.html
             reports/*.json
+
       - name: Commit approved JSON
         run: |
           git config user.name "Satellite Data Bot"
