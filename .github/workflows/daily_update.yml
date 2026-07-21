@@ -1,0 +1,45 @@
+name: Daily LyngSat Satellite Pilot
+
+on:
+  schedule:
+    - cron: '20 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Download pages with Chromium
+        run: python scripts/fetch_pages.py
+      - name: Parse LyngSat tables
+        run: python scripts/parse_lyngsat.py
+      - name: Validate output
+        run: python scripts/validate.py
+      - name: Upload raw HTML and reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: lyngsat-pilot-${{ github.run_number }}
+          retention-days: 14
+          path: |
+            raw/*.html
+            reports/*.json
+      - name: Commit approved JSON
+        run: |
+          git config user.name "Satellite Data Bot"
+          git config user.email "action@github.com"
+          git add output/*.json reports/*.json
+          git diff --cached --quiet || git commit -m "Uydu verisi güncellendi: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
