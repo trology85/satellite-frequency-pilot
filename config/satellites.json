@@ -1,0 +1,20 @@
+[
+  {
+    "id": "astra_19_2",
+    "name": "Astra 1N/1P",
+    "position": "19.2E",
+    "url": "https://www.lyngsat.com/Astra-1N-1P.html"
+  },
+  {
+    "id": "hotbird_13",
+    "name": "Hotbird 13F/13G",
+    "position": "13.0E",
+    "url": "https://www.lyngsat.com/Hotbird-13F-13G.html"
+  },
+  {
+    "id": "hellas_39",
+    "name": "Hellas Sat 3/4",
+    "position": "39.0E",
+    "url": "https://www.lyngsat.com/Hellas-Sat-3-4.html"
+  }
+]
