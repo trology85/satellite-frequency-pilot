@@ -14,7 +14,8 @@ REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 MAX_CHANNEL_DROP_RATIO = 0.30
 MAX_TP_DROP_RATIO = 0.30
-MAX_UNKNOWN_QUALITY_RATIO = 0.15
+DEFAULT_MAX_UNKNOWN_QUALITY_RATIO = 0.15
+UNKNOWN_QUALITY_WARNING_RATIO = 0.15
 ALLOWED_TYPES = {"TV", "RADIO"}
 ALLOWED_QUALITIES = {"SD", "HD", "4K", "UHD", "3D", "UNKNOWN", "RADIO"}
 
@@ -70,8 +71,17 @@ for sat in CONFIG:
             item["errors"].append(f"Eksik temel alan: {len(missing_core)}")
         if duplicates:
             item["errors"].append(f"Tekrarlı kanal kimliği: {duplicates}")
-        if unknown / tv > MAX_UNKNOWN_QUALITY_RATIO:
-            item["errors"].append(f"Bilinmeyen kalite oranı yüksek: {unknown}/{tv}")
+        unknown_ratio = unknown / tv
+        max_unknown_ratio = float(sat.get("max_unknown_quality_ratio", DEFAULT_MAX_UNKNOWN_QUALITY_RATIO))
+        if unknown_ratio > max_unknown_ratio:
+            item["errors"].append(
+                f"Bilinmeyen kalite oranı yüksek: {unknown}/{tv} "
+                f"({unknown_ratio:.1%} > {max_unknown_ratio:.1%})"
+            )
+        elif unknown_ratio > UNKNOWN_QUALITY_WARNING_RATIO:
+            item["warnings"].append(
+                f"Bilinmeyen kalite oranı dikkat gerektiriyor: {unknown}/{tv} ({unknown_ratio:.1%})"
+            )
 
         old = None
         if current_path.exists():
