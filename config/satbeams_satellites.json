@@ -5,7 +5,8 @@
     "position": 19,
     "position_label": "19.2E",
     "minimum_channels": 500,
-    "minimum_transponders": 50
+    "minimum_transponders": 50,
+    "max_unknown_quality_ratio": 0.15
   },
   {
     "id": "hotbird_13",
@@ -13,7 +14,8 @@
     "position": 13,
     "position_label": "13.0E",
     "minimum_channels": 500,
-    "minimum_transponders": 50
+    "minimum_transponders": 50,
+    "max_unknown_quality_ratio": 0.15
   },
   {
     "id": "hellas_39",
@@ -21,6 +23,7 @@
     "position": 39,
     "position_label": "39.0E",
     "minimum_channels": 20,
-    "minimum_transponders": 5
+    "minimum_transponders": 5,
+    "max_unknown_quality_ratio": 0.3
   }
 ]
