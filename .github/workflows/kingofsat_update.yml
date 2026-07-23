@@ -1,0 +1,54 @@
+name: KingOfSat Satellite Pilot
+
+on:
+  workflow_dispatch:
+  # İlk üç uydu testi tamamlandıktan sonra günlük zamanlama açılacak.
+  # schedule:
+  #   - cron: '20 2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download KingOfSat pages
+        run: python scripts/fetch_kingofsat.py
+
+      - name: Parse TV and radio records
+        run: python scripts/parse_kingofsat.py
+
+      - name: Validate output
+        run: python scripts/validate_kingofsat.py
+
+      - name: Upload raw HTML, JSON and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kingofsat-pilot-${{ github.run_number }}
+          retention-days: 14
+          path: |
+            raw/kingofsat/*.html
+            output/*.json
+            reports/kingofsat_*.json
+
+      - name: Commit approved JSON
+        if: success()
+        run: |
+          git config user.name "Satellite Data Bot"
+          git config user.email "action@github.com"
+          git add output/*.json reports/kingofsat_*.json
+          git diff --cached --quiet || git commit -m "KingOfSat uydu verisi güncellendi: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
