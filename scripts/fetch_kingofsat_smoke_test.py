@@ -71,8 +71,17 @@ def inspect_html(html: str) -> dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
     title = soup.title.get_text(" ", strip=True) if soup.title else ""
 
-    frequency_tables = soup.select("table.frequencies-table")
-    frequency_rows = soup.select("table.frequencies-table tr[data-frequency-id]")
+    # KingOfSat ağ çıktısında tablo sınıfı değişebiliyor veya HTML parser
+    # tablo sarmalayıcısını farklı kurabiliyor. Asıl sabit işaret data-frequency-id.
+    frequency_rows = soup.select("tr[data-frequency-id]")
+    frequency_tables = {id(row.find_parent("table")) for row in frequency_rows if row.find_parent("table")}
+
+    # BeautifulSoup herhangi bir bozuk/alışılmadık HTML parçasında satırı kaçırırsa
+    # ham HTML üzerindeki attribute sayımını yedek olarak kullan.
+    raw_frequency_row_count = len(
+        re.findall(r"<tr\b[^>]*\bdata-frequency-id\s*=", html, flags=re.IGNORECASE)
+    )
+    frequency_row_count = max(len(frequency_rows), raw_frequency_row_count)
     channel_rows = soup.select("tr[data-channel-id]")
     non_empty_channel_rows = [
         row for row in channel_rows if (row.get("data-channel-id") or "").strip()
@@ -101,7 +110,7 @@ def inspect_html(html: str) -> dict[str, Any]:
         "title": title,
         "bytes": len(html.encode("utf-8")),
         "frequency_table_count": len(frequency_tables),
-        "frequency_row_count": len(frequency_rows),
+        "frequency_row_count": frequency_row_count,
         "channel_row_count": len(channel_rows),
         "non_empty_channel_id_count": len(non_empty_channel_rows),
         "feed_marker_count": len(feed_rows),
