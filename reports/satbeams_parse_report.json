@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "source": "Satbeams API",
+  "satellites": [
+    {
+      "id": "astra_19_2",
+      "ok": true,
+      "transponders": 88,
+      "channels": 872,
+      "tv": 739,
+      "radio": 133,
+      "sd": 318,
+      "hd": 411,
+      "uhd_4k": 10,
+      "unknown_quality": 0,
+      "candidate": "candidate/satbeams/astra_19_2.json"
+    },
+    {
+      "id": "hotbird_13",
+      "ok": true,
+      "transponders": 83,
+      "channels": 1135,
+      "tv": 1035,
+      "radio": 100,
+      "sd": 462,
+      "hd": 552,
+      "uhd_4k": 5,
+      "unknown_quality": 16,
+      "candidate": "candidate/satbeams/hotbird_13.json"
+    },
+    {
+      "id": "hellas_39",
+      "ok": true,
+      "transponders": 32,
+      "channels": 586,
+      "tv": 566,
+      "radio": 20,
+      "sd": 305,
+      "hd": 111,
+      "uhd_4k": 1,
+      "unknown_quality": 149,
+      "candidate": "candidate/satbeams/hellas_39.json"
+    }
+  ]
+}

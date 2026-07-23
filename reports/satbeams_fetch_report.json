@@ -1,0 +1,40 @@
+{
+  "run_utc": "2026-07-23T12:43:31.898964+00:00",
+  "source": "Satbeams API",
+  "ok": true,
+  "satellites": [
+    {
+      "id": "astra_19_2",
+      "position": 19,
+      "ok": true,
+      "errors": [],
+      "pages": 2,
+      "transponders": 88,
+      "channels": 884,
+      "raw_channel_rows": 884,
+      "raw_file": "raw/satbeams/astra_19_2.json"
+    },
+    {
+      "id": "hotbird_13",
+      "position": 13,
+      "ok": true,
+      "errors": [],
+      "pages": 2,
+      "transponders": 83,
+      "channels": 1149,
+      "raw_channel_rows": 1149,
+      "raw_file": "raw/satbeams/hotbird_13.json"
+    },
+    {
+      "id": "hellas_39",
+      "position": 39,
+      "ok": true,
+      "errors": [],
+      "pages": 2,
+      "transponders": 33,
+      "channels": 587,
+      "raw_channel_rows": 587,
+      "raw_file": "raw/satbeams/hellas_39.json"
+    }
+  ]
+}
