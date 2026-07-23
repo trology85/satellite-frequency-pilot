@@ -1,0 +1,52 @@
+{
+  "run_utc": "2026-07-23T11:42:38.621740+00:00",
+  "source": "KingOfSat",
+  "ok": true,
+  "satellites": [
+    {
+      "id": "astra_19_2",
+      "url": "https://tr.kingofsat.net/pos-19.2E",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://tr.kingofsat.net/pos-19.2E",
+      "title": "Astra 1M / Astra 1N / Astra 1P (19.2°E) -  - Frekanslar - KingOfSat",
+      "bytes": 1095905,
+      "frequency_rows": 123,
+      "channel_rows": 1009,
+      "advertised_records": 1041,
+      "block_markers": [],
+      "raw_file": "raw/kingofsat/astra_19_2.html",
+      "errors": []
+    },
+    {
+      "id": "hotbird_13",
+      "url": "https://tr.kingofsat.net/pos-13E",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://tr.kingofsat.net/pos-13E",
+      "title": "Hot Bird 13F / Hot Bird 13G (13°E) -  - Frekanslar - KingOfSat",
+      "bytes": 1483301,
+      "frequency_rows": 131,
+      "channel_rows": 1449,
+      "advertised_records": 1501,
+      "block_markers": [],
+      "raw_file": "raw/kingofsat/hotbird_13.html",
+      "errors": []
+    },
+    {
+      "id": "hellas_39",
+      "url": "https://tr.kingofsat.net/pos-39E",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://tr.kingofsat.net/pos-39E",
+      "title": "Hellas Sat 3 / Hellas Sat 4 (39°E) -  - Frekanslar - KingOfSat",
+      "bytes": 722395,
+      "frequency_rows": 126,
+      "channel_rows": 605,
+      "advertised_records": 699,
+      "block_markers": [],
+      "raw_file": "raw/kingofsat/hellas_39.html",
+      "errors": []
+    }
+  ]
+}
