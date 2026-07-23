@@ -1,0 +1,66 @@
+name: Satbeams Satellite Pilot
+
+on:
+  workflow_dispatch:
+  # İlk API testi doğrulandıktan sonra günlük zamanlama açılacak.
+  # schedule:
+  #   - cron: '40 2 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download Satbeams API pages
+        run: python scripts/fetch_satbeams.py
+
+      - name: Build candidate JSON
+        run: python scripts/parse_satbeams.py
+
+      - name: Validate candidate and preserve current data
+        id: validate
+        shell: bash
+        run: |
+          set -o pipefail
+          python scripts/validate_satbeams.py | tee reports/satbeams_validation_console.log
+          if grep -q 'SHOULD_PUBLISH=true' reports/satbeams_validation_console.log; then
+            echo "should_publish=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_publish=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload API data, candidate JSON and reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: satbeams-pilot-${{ github.run_number }}
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            raw/satbeams/*.json
+            candidate/satbeams/*.json
+            output/satbeams/*.json
+            reports/satbeams_*.json
+            reports/satbeams_validation_console.log
+
+      - name: Commit approved JSON
+        if: success() && steps.validate.outputs.should_publish == 'true'
+        run: |
+          git config user.name "Satellite Data Bot"
+          git config user.email "action@github.com"
+          git add output/satbeams/*.json reports/satbeams_*.json
+          git diff --cached --quiet || git commit -m "Satbeams uydu verisi güncellendi: $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
