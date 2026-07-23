@@ -27,8 +27,17 @@ jobs:
       - name: Download Satbeams API pages
         run: python scripts/fetch_satbeams.py
 
+      - name: Download KingOfSat comparison pages
+        run: python scripts/fetch_kingofsat.py
+
+      - name: Parse KingOfSat comparison data
+        run: python scripts/parse_kingofsat.py
+
       - name: Build candidate JSON
         run: python scripts/parse_satbeams.py
+
+      - name: Complete unknown quality from KingOfSat
+        run: python scripts/enrich_satbeams_quality.py
 
       - name: Validate candidate and preserve current data
         id: validate
@@ -53,6 +62,11 @@ jobs:
             raw/satbeams/*.json
             candidate/satbeams/*.json
             output/satbeams/*.json
+            raw/kingofsat/*.html
+            output/astra_19_2.json
+            output/hotbird_13.json
+            output/hellas_39.json
+            reports/kingofsat_*.json
             reports/satbeams_*.json
             reports/satbeams_validation_console.log
 
@@ -61,6 +75,9 @@ jobs:
         run: |
           git config user.name "Satellite Data Bot"
           git config user.email "action@github.com"
-          git add output/satbeams/*.json reports/satbeams_*.json
+          git add output/satbeams/*.json \
+            reports/satbeams_fetch_report.json \
+            reports/satbeams_parse_report.json \
+            reports/satbeams_validation_report.json
           git diff --cached --quiet || git commit -m "Satbeams uydu verisi güncellendi: $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
