@@ -1,0 +1,26 @@
+[
+  {
+    "id": "astra_19_2",
+    "name": "Astra 19.2°E",
+    "position": 19,
+    "position_label": "19.2E",
+    "minimum_channels": 500,
+    "minimum_transponders": 50
+  },
+  {
+    "id": "hotbird_13",
+    "name": "Hot Bird 13°E",
+    "position": 13,
+    "position_label": "13.0E",
+    "minimum_channels": 500,
+    "minimum_transponders": 50
+  },
+  {
+    "id": "hellas_39",
+    "name": "Hellas Sat 39°E",
+    "position": 39,
+    "position_label": "39.0E",
+    "minimum_channels": 20,
+    "minimum_transponders": 5
+  }
+]
