@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-07-23T13:00:10.270668+00:00",
+  "generated_utc": "2026-07-23T12:43:34.028468+00:00",
   "source": {
     "name": "Satbeams API",
     "url": "https://www.satbeams.com/channels?position=13E",
@@ -17,9 +17,9 @@
     "tv": 1035,
     "radio": 100,
     "sd": 462,
-    "hd": 554,
-    "uhd_4k": 7,
-    "unknown_quality": 12
+    "hd": 552,
+    "uhd_4k": 5,
+    "unknown_quality": 16
   },
   "transponders": [
     {
@@ -2297,7 +2297,7 @@
     {
       "name": "TRAVELXP 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13F",
       "position": "13.0E",
@@ -2328,7 +2328,7 @@
     {
       "name": "Museum 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13F",
       "position": "13.0E",
@@ -4281,7 +4281,7 @@
     {
       "name": "TVP Kultura",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13G",
       "position": "13.0E",
@@ -4622,7 +4622,7 @@
     {
       "name": "TV PULS HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13G",
       "position": "13.0E",

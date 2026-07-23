@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-07-23T13:00:10.304778+00:00",
+  "generated_utc": "2026-07-23T12:43:34.061181+00:00",
   "source": {
     "name": "Satbeams API",
     "url": "https://www.satbeams.com/channels?position=39E",
@@ -17,9 +17,9 @@
     "tv": 566,
     "radio": 20,
     "sd": 305,
-    "hd": 130,
+    "hd": 111,
     "uhd_4k": 1,
-    "unknown_quality": 130
+    "unknown_quality": 149
   },
   "transponders": [
     {
@@ -10557,7 +10557,7 @@
     {
       "name": "Eurosport 1 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -10588,7 +10588,7 @@
     {
       "name": "Investigation Discovery HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -10619,7 +10619,7 @@
     {
       "name": "Motorvision HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -10743,7 +10743,7 @@
     {
       "name": "Antena Stars HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -10805,7 +10805,7 @@
     {
       "name": "Cinemaraton HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -10836,7 +10836,7 @@
     {
       "name": "Prima Sport 3 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12138,7 +12138,7 @@
     {
       "name": "Cinemax 2 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12293,7 +12293,7 @@
     {
       "name": "Prima Sport 2 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12324,7 +12324,7 @@
     {
       "name": "Prima Sport 1 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12355,7 +12355,7 @@
     {
       "name": "ACASA HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12386,7 +12386,7 @@
     {
       "name": "PRO CINEMA HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12417,7 +12417,7 @@
     {
       "name": "TVR Info HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -12448,7 +12448,7 @@
     {
       "name": "Prima Sport 4 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -14060,7 +14060,7 @@
     {
       "name": "TVR 1 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -14091,7 +14091,7 @@
     {
       "name": "PRO TV HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -14122,7 +14122,7 @@
     {
       "name": "Antena 1 HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -14432,7 +14432,7 @@
     {
       "name": "PRO ARENA HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -14463,7 +14463,7 @@
     {
       "name": "Prima TV HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -18586,7 +18586,7 @@
     {
       "name": "ACASA GOLD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",

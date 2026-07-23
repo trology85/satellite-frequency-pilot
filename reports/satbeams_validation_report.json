@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-07-23T12:43:34.124908+00:00",
+  "run_utc": "2026-07-23T13:00:10.581091+00:00",
   "ok": true,
   "should_publish": true,
   "source": "Satbeams API",
@@ -21,9 +21,9 @@
       "missing_core_fields": 0,
       "duplicate_identities": 0,
       "candidate_hash": "bcaf974e597524ec973420dbfed39b32e1c3979a70ef867be41a07aa49cb9374",
-      "current_hash": "",
-      "changed": true,
-      "added": 872,
+      "current_hash": "bcaf974e597524ec973420dbfed39b32e1c3979a70ef867be41a07aa49cb9374",
+      "changed": false,
+      "added": 0,
       "removed": 0,
       "updated": 0
     },
@@ -37,43 +37,43 @@
       "tv": 1035,
       "radio": 100,
       "sd": 462,
-      "hd": 552,
-      "uhd_4k": 5,
-      "unknown_quality": 16,
+      "hd": 554,
+      "uhd_4k": 7,
+      "unknown_quality": 12,
       "forbidden_records": 0,
       "missing_core_fields": 0,
       "duplicate_identities": 0,
-      "candidate_hash": "e73196506c0b363c5efead6963585faea322389a3c33312cb810cfcf2e609728",
-      "current_hash": "",
+      "candidate_hash": "94cc0016c4f5fefc201859b8626779e9cbf3a8f039a951e1e9ca1758b7e43d55",
+      "current_hash": "e73196506c0b363c5efead6963585faea322389a3c33312cb810cfcf2e609728",
       "changed": true,
-      "added": 1135,
+      "added": 0,
       "removed": 0,
-      "updated": 0
+      "updated": 4
     },
     {
       "id": "hellas_39",
       "ok": true,
       "errors": [],
       "warnings": [
-        "Bilinmeyen kalite oranı dikkat gerektiriyor: 149/566 (26.3%)"
+        "Bilinmeyen kalite oranı dikkat gerektiriyor: 130/566 (23.0%)"
       ],
       "transponders": 32,
       "channels": 586,
       "tv": 566,
       "radio": 20,
       "sd": 305,
-      "hd": 111,
+      "hd": 130,
       "uhd_4k": 1,
-      "unknown_quality": 149,
+      "unknown_quality": 130,
       "forbidden_records": 0,
       "missing_core_fields": 0,
       "duplicate_identities": 0,
-      "candidate_hash": "d8e5df6b0fdafd7cf5a571a37adeef92901c68168e82074da8e423af1c223628",
-      "current_hash": "",
+      "candidate_hash": "d56bd9f41f5c2bc517a62e49b2814288af82c378e95e64d17c89bd5b69679547",
+      "current_hash": "d8e5df6b0fdafd7cf5a571a37adeef92901c68168e82074da8e423af1c223628",
       "changed": true,
-      "added": 586,
+      "added": 0,
       "removed": 0,
-      "updated": 0
+      "updated": 19
     }
   ]
 }
