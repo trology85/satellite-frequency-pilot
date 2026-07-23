@@ -160,13 +160,18 @@ def parse_one(sat: dict[str, str]) -> dict[str, Any]:
     channels: list[dict[str, Any]] = []
     seen: set[tuple[Any, ...]] = set()
 
-    for freq_table in soup.select("table.frequencies-table"):
-        row = freq_table.find("tr", attrs={"data-frequency-id": True})
-        if not row:
-            continue
+    # KingOfSat ağdan gelen HTML'de frequencies-table sınıfı bazen bulunmuyor.
+    # En kararlı işaret data-frequency-id taşıyan frekans satırıdır.
+    for row in soup.select("tr[data-frequency-id]"):
         tp = parse_frequency_row(row, sat)
         if not tp:
             continue
+
+        freq_table = row.find_parent("table")
+        if not freq_table:
+            continue
+
+        # Frekans tablosunun hemen ardından ilgili kanal detay div'i gelir.
         details = freq_table.find_next_sibling("div")
         if details:
             channel_table = details.find("table", class_="fl")
