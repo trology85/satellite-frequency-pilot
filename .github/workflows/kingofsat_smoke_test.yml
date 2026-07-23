@@ -1,0 +1,45 @@
+name: KingOfSat Astra Smoke Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download and inspect KingOfSat Astra 19.2E
+        run: python scripts/fetch_kingofsat_smoke_test.py
+
+      - name: Show smoke-test report
+        if: always()
+        run: |
+          echo "===== reports/kingofsat_smoke_report.json ====="
+          cat reports/kingofsat_smoke_report.json || true
+
+      - name: Upload raw HTML and report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kingofsat-smoke-${{ github.run_number }}
+          retention-days: 14
+          if-no-files-found: warn
+          path: |
+            raw/kingofsat-smoke/*.html
+            reports/kingofsat_smoke_report.json
