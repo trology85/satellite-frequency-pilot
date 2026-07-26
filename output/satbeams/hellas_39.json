@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-07-23T13:00:10.304778+00:00",
+  "generated_utc": "2026-07-26T12:34:39.605255+00:00",
   "source": {
     "name": "Satbeams API",
     "url": "https://www.satbeams.com/channels?position=39E",
-    "last_updated": "2026-06-07"
+    "last_updated": "2026-07-24"
   },
   "satellite": {
     "id": "hellas_39",
@@ -17,9 +17,9 @@
     "tv": 566,
     "radio": 20,
     "sd": 305,
-    "hd": 130,
+    "hd": 128,
     "uhd_4k": 1,
-    "unknown_quality": 130
+    "unknown_quality": 132
   },
   "transponders": [
     {
@@ -1344,7 +1344,7 @@
       "tid": 1,
       "source_channel_id": 167432,
       "source_transponder_id": 13497,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:10730:H:30000"
     },
     {
@@ -2894,7 +2894,7 @@
       "tid": 1020,
       "source_channel_id": 130494,
       "source_transponder_id": 14354,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:10930:H:30000"
     },
     {
@@ -3080,7 +3080,7 @@
       "tid": 1020,
       "source_channel_id": 147888,
       "source_transponder_id": 14354,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:10930:H:30000"
     },
     {
@@ -3142,7 +3142,7 @@
       "tid": 1020,
       "source_channel_id": 147883,
       "source_transponder_id": 14354,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:10930:H:30000"
     },
     {
@@ -3886,7 +3886,7 @@
       "tid": null,
       "source_channel_id": 162278,
       "source_transponder_id": 13018,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11504:V:5865"
     },
     {
@@ -3917,7 +3917,7 @@
       "tid": null,
       "source_channel_id": 167433,
       "source_transponder_id": 13018,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11504:V:5865"
     },
     {
@@ -4134,7 +4134,7 @@
       "tid": 1,
       "source_channel_id": 168005,
       "source_transponder_id": 13604,
-      "updated": "2026-06-07",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11761:H:16515"
     },
     {
@@ -4289,7 +4289,7 @@
       "tid": 2,
       "source_channel_id": 168006,
       "source_transponder_id": 12124,
-      "updated": "2026-06-07",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11778:H:16515"
     },
     {
@@ -4351,7 +4351,7 @@
       "tid": 1,
       "source_channel_id": 167434,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -4382,7 +4382,7 @@
       "tid": 1,
       "source_channel_id": 167435,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -4413,7 +4413,7 @@
       "tid": 1,
       "source_channel_id": 167436,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -4444,7 +4444,7 @@
       "tid": 1,
       "source_channel_id": 167437,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -4475,7 +4475,7 @@
       "tid": 1,
       "source_channel_id": 167438,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -4506,7 +4506,7 @@
       "tid": 1,
       "source_channel_id": 167439,
       "source_transponder_id": 14837,
-      "updated": "2026-05-15",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:11837:H:16515"
     },
     {
@@ -10588,7 +10588,7 @@
     {
       "name": "Investigation Discovery HD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -18586,7 +18586,7 @@
     {
       "name": "ACASA GOLD",
       "type": "TV",
-      "quality": "HD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hellas Sat 39°E",
       "spacecraft": "HellasSat 3",
       "position": "39.0E",
@@ -18859,7 +18859,7 @@
       "tid": 6,
       "source_channel_id": 133865,
       "source_transponder_id": 13821,
-      "updated": "2026-06-07",
+      "updated": "2026-07-24",
       "tp_id": "hellas_39:12724:H:6250"
     }
   ]

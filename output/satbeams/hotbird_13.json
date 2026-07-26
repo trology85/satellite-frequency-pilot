@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-07-23T13:00:10.270668+00:00",
+  "generated_utc": "2026-07-26T12:34:39.572970+00:00",
   "source": {
     "name": "Satbeams API",
     "url": "https://www.satbeams.com/channels?position=13E",
-    "last_updated": "2026-07-06"
+    "last_updated": "2026-07-24"
   },
   "satellite": {
     "id": "hotbird_13",
@@ -18,8 +18,8 @@
     "radio": 100,
     "sd": 462,
     "hd": 554,
-    "uhd_4k": 7,
-    "unknown_quality": 12
+    "uhd_4k": 5,
+    "unknown_quality": 14
   },
   "transponders": [
     {
@@ -374,8 +374,8 @@
       "network": "Arqiva",
       "nid": 318,
       "tid": 13100,
-      "channel_count": 8,
-      "tv_count": 8,
+      "channel_count": 7,
+      "tv_count": 7,
       "radio_count": 0,
       "source_transponder_id": 3404
     },
@@ -1634,8 +1634,8 @@
       "network": "Eutelsat",
       "nid": 318,
       "tid": 9300,
-      "channel_count": 4,
-      "tv_count": 4,
+      "channel_count": 5,
+      "tv_count": 5,
       "radio_count": 0,
       "source_transponder_id": 13087
     },
@@ -1919,7 +1919,7 @@
       "tid": null,
       "source_channel_id": 155394,
       "source_transponder_id": 3409,
-      "updated": "2026-05-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:10719:V:27500"
     },
     {
@@ -2105,7 +2105,7 @@
       "tid": null,
       "source_channel_id": 155390,
       "source_transponder_id": 3409,
-      "updated": "2026-05-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:10719:V:27500"
     },
     {
@@ -2297,7 +2297,7 @@
     {
       "name": "TRAVELXP 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13F",
       "position": "13.0E",
@@ -2328,7 +2328,7 @@
     {
       "name": "Museum 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "UNKNOWN",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13F",
       "position": "13.0E",
@@ -2359,7 +2359,7 @@
     {
       "name": "MyZen TV 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "4K",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13F",
       "position": "13.0E",
@@ -7313,7 +7313,7 @@
       "tid": null,
       "source_channel_id": 167901,
       "source_transponder_id": 3485,
-      "updated": "2026-06-02",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:10949:V:27500"
     },
     {
@@ -10078,7 +10078,7 @@
     {
       "name": "Eleven Sports 1 4K",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "4K",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13G",
       "position": "13.0E",
@@ -10319,37 +10319,6 @@
       "nid": 318,
       "tid": 13100,
       "source_channel_id": 155473,
-      "source_transponder_id": 3404,
-      "updated": "2025-10-17",
-      "tp_id": "hotbird_13:11137:H:27500"
-    },
-    {
-      "name": "Perviy kanal Eurasia",
-      "type": "TV",
-      "quality": "SD",
-      "satellite_group": "Hot Bird 13°E",
-      "spacecraft": "Eutelsat Hot Bird 13G",
-      "position": "13.0E",
-      "frequency": 11137,
-      "polarization": "H",
-      "symbol_rate": 27500,
-      "fec": "3/4",
-      "system": "DVB-S",
-      "modulation": "QPSK",
-      "sid": 7314,
-      "country": "",
-      "country_code": "",
-      "beam": "Wide",
-      "provider": "Arqiva",
-      "package": "",
-      "encryption": "",
-      "free_to_air": true,
-      "compression": "MPEG-2",
-      "vpid": 3514,
-      "audio": "3614 / rus",
-      "nid": 318,
-      "tid": 13100,
-      "source_channel_id": 155475,
       "source_transponder_id": 3404,
       "updated": "2025-10-17",
       "tp_id": "hotbird_13:11137:H:27500"
@@ -11535,7 +11504,7 @@
     {
       "name": "Canal+ 4K UHD",
       "type": "TV",
-      "quality": "UHD",
+      "quality": "4K",
       "satellite_group": "Hot Bird 13°E",
       "spacecraft": "Eutelsat Hot Bird 13G",
       "position": "13.0E",
@@ -12862,7 +12831,7 @@
       "tid": 900,
       "source_channel_id": 168009,
       "source_transponder_id": 9369,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11373:H:27500"
     },
     {
@@ -12924,7 +12893,7 @@
       "tid": 900,
       "source_channel_id": 167626,
       "source_transponder_id": 9369,
-      "updated": "2026-05-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11373:H:27500"
     },
     {
@@ -15311,7 +15280,7 @@
       "tid": 1500,
       "source_channel_id": 167902,
       "source_transponder_id": 9792,
-      "updated": "2026-06-02",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15342,7 +15311,7 @@
       "tid": 1500,
       "source_channel_id": 168288,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15373,7 +15342,7 @@
       "tid": 1500,
       "source_channel_id": 168291,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15404,7 +15373,7 @@
       "tid": 1500,
       "source_channel_id": 168292,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15435,7 +15404,7 @@
       "tid": 1500,
       "source_channel_id": 168290,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15466,7 +15435,7 @@
       "tid": 1500,
       "source_channel_id": 168293,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15497,7 +15466,7 @@
       "tid": 1500,
       "source_channel_id": 168289,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15528,7 +15497,7 @@
       "tid": 1500,
       "source_channel_id": 168296,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15559,7 +15528,7 @@
       "tid": 1500,
       "source_channel_id": 168294,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -15590,7 +15559,7 @@
       "tid": 1500,
       "source_channel_id": 168295,
       "source_transponder_id": 9792,
-      "updated": "2026-06-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11488:H:27500"
     },
     {
@@ -21821,7 +21790,7 @@
       "tid": 5500,
       "source_channel_id": 167777,
       "source_transponder_id": 3427,
-      "updated": "2026-05-27",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11823:H:27500"
     },
     {
@@ -22441,7 +22410,7 @@
       "tid": null,
       "source_channel_id": 165354,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22472,7 +22441,7 @@
       "tid": null,
       "source_channel_id": 165366,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22503,7 +22472,7 @@
       "tid": null,
       "source_channel_id": 165365,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22534,7 +22503,7 @@
       "tid": null,
       "source_channel_id": 165371,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22565,7 +22534,7 @@
       "tid": null,
       "source_channel_id": 165369,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22596,7 +22565,7 @@
       "tid": null,
       "source_channel_id": 165368,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22627,7 +22596,7 @@
       "tid": null,
       "source_channel_id": 165367,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22658,7 +22627,7 @@
       "tid": null,
       "source_channel_id": 165364,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22689,7 +22658,7 @@
       "tid": null,
       "source_channel_id": 165370,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22720,7 +22689,7 @@
       "tid": null,
       "source_channel_id": 165372,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22751,7 +22720,7 @@
       "tid": null,
       "source_channel_id": 165363,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22782,7 +22751,7 @@
       "tid": null,
       "source_channel_id": 165373,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22813,7 +22782,7 @@
       "tid": null,
       "source_channel_id": 165374,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22844,7 +22813,7 @@
       "tid": null,
       "source_channel_id": 165357,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22875,7 +22844,7 @@
       "tid": null,
       "source_channel_id": 165356,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22906,7 +22875,7 @@
       "tid": null,
       "source_channel_id": 165358,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22937,7 +22906,7 @@
       "tid": null,
       "source_channel_id": 165359,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22968,7 +22937,7 @@
       "tid": null,
       "source_channel_id": 165355,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -22999,7 +22968,7 @@
       "tid": null,
       "source_channel_id": 165362,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23030,7 +22999,7 @@
       "tid": null,
       "source_channel_id": 165361,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23061,7 +23030,7 @@
       "tid": null,
       "source_channel_id": 165375,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23092,7 +23061,7 @@
       "tid": null,
       "source_channel_id": 165376,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23123,7 +23092,7 @@
       "tid": null,
       "source_channel_id": 165360,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23154,7 +23123,7 @@
       "tid": null,
       "source_channel_id": 165378,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23185,7 +23154,7 @@
       "tid": null,
       "source_channel_id": 165377,
       "source_transponder_id": 3429,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11862:H:27500"
     },
     {
@@ -23309,7 +23278,7 @@
       "tid": null,
       "source_channel_id": 10175,
       "source_transponder_id": 3487,
-      "updated": "2026-05-24",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:11900:H:27500"
     },
     {
@@ -24580,7 +24549,7 @@
       "tid": 6500,
       "source_channel_id": 168010,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24611,7 +24580,7 @@
       "tid": 6500,
       "source_channel_id": 168013,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24642,7 +24611,7 @@
       "tid": 6500,
       "source_channel_id": 168014,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24673,7 +24642,7 @@
       "tid": 6500,
       "source_channel_id": 168012,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24704,7 +24673,7 @@
       "tid": 6500,
       "source_channel_id": 168015,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24735,7 +24704,7 @@
       "tid": 6500,
       "source_channel_id": 168016,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -24766,7 +24735,7 @@
       "tid": 6500,
       "source_channel_id": 168011,
       "source_transponder_id": 11460,
-      "updated": "2026-06-08",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12015:H:27500"
     },
     {
@@ -28362,7 +28331,7 @@
       "tid": 7400,
       "source_channel_id": 168539,
       "source_transponder_id": 3444,
-      "updated": "2026-07-06",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12188:V:27500"
     },
     {
@@ -29664,7 +29633,7 @@
       "tid": 7900,
       "source_channel_id": 154767,
       "source_transponder_id": 3449,
-      "updated": "2026-05-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12284:H:27500"
     },
     {
@@ -29726,7 +29695,7 @@
       "tid": 7900,
       "source_channel_id": 167625,
       "source_transponder_id": 3449,
-      "updated": "2026-05-22",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12284:H:27500"
     },
     {
@@ -32303,6 +32272,37 @@
       "tp_id": "hotbird_13:12577:H:27500"
     },
     {
+      "name": "Nour Kids",
+      "type": "TV",
+      "quality": "SD",
+      "satellite_group": "Hot Bird 13°E",
+      "spacecraft": "Eutelsat Hot Bird 13G",
+      "position": "13.0E",
+      "frequency": 12577,
+      "polarization": "H",
+      "symbol_rate": 27500,
+      "fec": "3/4",
+      "system": "DVB-S2",
+      "modulation": "8PSK",
+      "sid": 1620,
+      "country": "",
+      "country_code": "",
+      "beam": "Wide",
+      "provider": "Eutelsat",
+      "package": "",
+      "encryption": "",
+      "free_to_air": true,
+      "compression": "MPEG-4",
+      "vpid": 6201,
+      "audio": "6202 / eng",
+      "nid": 318,
+      "tid": 9300,
+      "source_channel_id": 144567,
+      "source_transponder_id": 13087,
+      "updated": "2026-07-24",
+      "tp_id": "hotbird_13:12577:H:27500"
+    },
+    {
       "name": "Noursat English",
       "type": "TV",
       "quality": "SD",
@@ -32330,7 +32330,7 @@
       "tid": 9300,
       "source_channel_id": 161232,
       "source_transponder_id": 13087,
-      "updated": "2025-07-06",
+      "updated": "2026-07-24",
       "tp_id": "hotbird_13:12577:H:27500"
     },
     {

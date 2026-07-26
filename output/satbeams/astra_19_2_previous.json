@@ -1,10 +1,10 @@
 {
   "schema_version": 2,
-  "generated_utc": "2026-07-26T12:34:39.536018+00:00",
+  "generated_utc": "2026-07-23T12:43:33.991225+00:00",
   "source": {
     "name": "Satbeams API",
     "url": "https://www.satbeams.com/channels?position=19E",
-    "last_updated": "2026-07-24"
+    "last_updated": "2026-07-23"
   },
   "satellite": {
     "id": "astra_19_2",
@@ -1875,7 +1875,7 @@
     {
       "name": "LA 1 UHD",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2241,7 +2241,7 @@
       "tid": 1052,
       "source_channel_id": 163554,
       "source_transponder_id": 14602,
-      "updated": "2026-07-24",
+      "updated": "2026-05-23",
       "tp_id": "astra_19_2:10758:V:22000"
     },
     {
@@ -2365,7 +2365,7 @@
       "tid": 1052,
       "source_channel_id": 168498,
       "source_transponder_id": 14602,
-      "updated": "2026-07-24",
+      "updated": "2026-07-04",
       "tp_id": "astra_19_2:10758:V:22000"
     },
     {
@@ -2675,7 +2675,7 @@
       "tid": 1054,
       "source_channel_id": 99735,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -2768,7 +2768,7 @@
       "tid": 1054,
       "source_channel_id": 15357,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-05-16",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -2799,7 +2799,7 @@
       "tid": 1054,
       "source_channel_id": 164721,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -2892,7 +2892,7 @@
       "tid": 1054,
       "source_channel_id": 120731,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-05-16",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -2954,7 +2954,7 @@
       "tid": 1054,
       "source_channel_id": 158286,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-07-23",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -3016,7 +3016,7 @@
       "tid": 1054,
       "source_channel_id": 167663,
       "source_transponder_id": 1302,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
@@ -3388,7 +3388,7 @@
       "tid": 1056,
       "source_channel_id": 152449,
       "source_transponder_id": 1304,
-      "updated": "2026-07-24",
+      "updated": "2026-07-23",
       "tp_id": "astra_19_2:10818:V:22000"
     },
     {
@@ -3481,7 +3481,7 @@
       "tid": 1056,
       "source_channel_id": 32533,
       "source_transponder_id": 1304,
-      "updated": "2026-07-24",
+      "updated": "2026-05-16",
       "tp_id": "astra_19_2:10818:V:22000"
     },
     {
@@ -3543,7 +3543,7 @@
       "tid": 1056,
       "source_channel_id": 114505,
       "source_transponder_id": 1304,
-      "updated": "2026-07-24",
+      "updated": "2026-05-16",
       "tp_id": "astra_19_2:10818:V:22000"
     },
     {
@@ -3605,7 +3605,7 @@
       "tid": 1056,
       "source_channel_id": 152448,
       "source_transponder_id": 1304,
-      "updated": "2026-07-24",
+      "updated": "2026-07-23",
       "tp_id": "astra_19_2:10818:V:22000"
     },
     {
@@ -3853,7 +3853,7 @@
       "tid": 1058,
       "source_channel_id": 168497,
       "source_transponder_id": 1306,
-      "updated": "2026-07-24",
+      "updated": "2026-07-04",
       "tp_id": "astra_19_2:10847:V:22000"
     },
     {
@@ -4287,7 +4287,7 @@
       "tid": 1060,
       "source_channel_id": 158083,
       "source_transponder_id": 1299,
-      "updated": "2026-07-24",
+      "updated": "2026-07-23",
       "tp_id": "astra_19_2:10876:V:22000"
     },
     {
@@ -4411,7 +4411,7 @@
       "tid": 1060,
       "source_channel_id": 167430,
       "source_transponder_id": 1299,
-      "updated": "2026-07-24",
+      "updated": "2026-05-14",
       "tp_id": "astra_19_2:10876:V:22000"
     },
     {
@@ -5403,7 +5403,7 @@
       "tid": 1062,
       "source_channel_id": 158532,
       "source_transponder_id": 13153,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:10906:V:22000"
     },
     {
@@ -5558,7 +5558,7 @@
       "tid": 1064,
       "source_channel_id": 167669,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-05-23",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5589,7 +5589,7 @@
       "tid": 1064,
       "source_channel_id": 152165,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5620,7 +5620,7 @@
       "tid": 1064,
       "source_channel_id": 152160,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-05-17",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5682,7 +5682,7 @@
       "tid": 1064,
       "source_channel_id": 162539,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-05-14",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5713,7 +5713,7 @@
       "tid": 1064,
       "source_channel_id": 167664,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-05-23",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5775,7 +5775,7 @@
       "tid": 1064,
       "source_channel_id": 167665,
       "source_transponder_id": 1312,
-      "updated": "2026-07-24",
+      "updated": "2026-05-23",
       "tp_id": "astra_19_2:10936:V:22000"
     },
     {
@@ -5930,7 +5930,7 @@
       "tid": 15,
       "source_channel_id": 167896,
       "source_transponder_id": 1311,
-      "updated": "2026-07-24",
+      "updated": "2026-06-02",
       "tp_id": "astra_19_2:10964:H:22000"
     },
     {
@@ -6271,7 +6271,7 @@
       "tid": 1034,
       "source_channel_id": 155496,
       "source_transponder_id": 1313,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:10979:V:22000"
     },
     {
@@ -6426,13 +6426,13 @@
       "tid": 1034,
       "source_channel_id": 159346,
       "source_transponder_id": 1313,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:10979:V:22000"
     },
     {
       "name": "SES UHD Demo Channel",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6463,7 +6463,7 @@
     {
       "name": "UHD1 by ASTRA / HD+ (20.00 - 8.00)",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6494,7 +6494,7 @@
     {
       "name": "UHD1 by ASTRA / HD+ (8.00 - 20.00)",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6525,7 +6525,7 @@
     {
       "name": "Pro7Sat.1 UHD",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7170,7 +7170,7 @@
       "tid": 1038,
       "source_channel_id": 158144,
       "source_transponder_id": 1315,
-      "updated": "2026-07-24",
+      "updated": "2026-07-21",
       "tp_id": "astra_19_2:11038:V:22000"
     },
     {
@@ -9309,7 +9309,7 @@
       "tid": 1042,
       "source_channel_id": 159324,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9340,7 +9340,7 @@
       "tid": 1042,
       "source_channel_id": 159325,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9371,7 +9371,7 @@
       "tid": 1042,
       "source_channel_id": 167372,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9402,7 +9402,7 @@
       "tid": 1042,
       "source_channel_id": 158289,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9433,7 +9433,7 @@
       "tid": 1042,
       "source_channel_id": 167431,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9712,7 +9712,7 @@
       "tid": 1042,
       "source_channel_id": 158295,
       "source_transponder_id": 1316,
-      "updated": "2026-07-24",
+      "updated": "2026-05-23",
       "tp_id": "astra_19_2:11097:V:22000"
     },
     {
@@ -9774,7 +9774,7 @@
       "tid": 1043,
       "source_channel_id": 167530,
       "source_transponder_id": 1333,
-      "updated": "2026-07-24",
+      "updated": "2026-05-19",
       "tp_id": "astra_19_2:11112:H:22000"
     },
     {
@@ -9867,7 +9867,7 @@
       "tid": 1044,
       "source_channel_id": 160215,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -9898,7 +9898,7 @@
       "tid": 1044,
       "source_channel_id": 160387,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -9929,7 +9929,7 @@
       "tid": 1044,
       "source_channel_id": 158164,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-07-05",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10053,7 +10053,7 @@
       "tid": 1044,
       "source_channel_id": 160388,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10084,7 +10084,7 @@
       "tid": 1044,
       "source_channel_id": 160425,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-07-04",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10115,7 +10115,7 @@
       "tid": 1044,
       "source_channel_id": 167453,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10208,7 +10208,7 @@
       "tid": 1044,
       "source_channel_id": 159381,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-07-04",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10239,7 +10239,7 @@
       "tid": 1044,
       "source_channel_id": 168496,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-07-04",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10270,7 +10270,7 @@
       "tid": 1044,
       "source_channel_id": 160214,
       "source_transponder_id": 1334,
-      "updated": "2026-07-24",
+      "updated": "2026-05-14",
       "tp_id": "astra_19_2:11127:V:22000"
     },
     {
@@ -10983,7 +10983,7 @@
       "tid": 1002,
       "source_channel_id": 167454,
       "source_transponder_id": 10811,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11229:V:22000"
     },
     {
@@ -11014,7 +11014,7 @@
       "tid": 1002,
       "source_channel_id": 167455,
       "source_transponder_id": 10811,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11229:V:22000"
     },
     {
@@ -11045,7 +11045,7 @@
       "tid": 1002,
       "source_channel_id": 167456,
       "source_transponder_id": 10811,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11229:V:22000"
     },
     {
@@ -11076,7 +11076,7 @@
       "tid": 1002,
       "source_channel_id": 167531,
       "source_transponder_id": 10811,
-      "updated": "2026-07-24",
+      "updated": "2026-05-19",
       "tp_id": "astra_19_2:11229:V:22000"
     },
     {
@@ -11107,7 +11107,7 @@
       "tid": 1002,
       "source_channel_id": 167457,
       "source_transponder_id": 10811,
-      "updated": "2026-07-24",
+      "updated": "2026-05-15",
       "tp_id": "astra_19_2:11229:V:22000"
     },
     {
@@ -13562,7 +13562,7 @@
     {
       "name": "RTL UHD",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14579,7 +14579,7 @@
       "tid": 1022,
       "source_channel_id": 167393,
       "source_transponder_id": 1341,
-      "updated": "2026-07-24",
+      "updated": "2026-05-14",
       "tp_id": "astra_19_2:11538:V:22000"
     },
     {
@@ -15633,7 +15633,7 @@
       "tid": 2,
       "source_channel_id": 159224,
       "source_transponder_id": 1357,
-      "updated": "2026-07-24",
+      "updated": "2026-05-24",
       "tp_id": "astra_19_2:11759:H:27500"
     },
     {
@@ -15757,7 +15757,7 @@
       "tid": 2,
       "source_channel_id": 159225,
       "source_transponder_id": 1357,
-      "updated": "2026-07-24",
+      "updated": "2026-07-20",
       "tp_id": "astra_19_2:11759:H:27500"
     },
     {
@@ -16166,7 +16166,7 @@
     {
       "name": "Sky Sport UHD",
       "type": "TV",
-      "quality": "4K",
+      "quality": "UHD",
       "satellite_group": "Astra 19.2°E",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17989,7 +17989,7 @@
       "tid": 1076,
       "source_channel_id": 167536,
       "source_transponder_id": 11315,
-      "updated": "2026-07-24",
+      "updated": "2026-05-19",
       "tp_id": "astra_19_2:11934:V:29700"
     },
     {
@@ -18144,7 +18144,7 @@
       "tid": 1079,
       "source_channel_id": 164599,
       "source_transponder_id": 1270,
-      "updated": "2026-07-24",
+      "updated": "2026-05-13",
       "tp_id": "astra_19_2:11954:H:27500"
     },
     {
@@ -18299,7 +18299,7 @@
       "tid": 1078,
       "source_channel_id": 159625,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-26",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18330,7 +18330,7 @@
       "tid": 1078,
       "source_channel_id": 159626,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-26",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18361,7 +18361,7 @@
       "tid": 1078,
       "source_channel_id": 159627,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-26",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18392,7 +18392,7 @@
       "tid": 1078,
       "source_channel_id": 161863,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-25",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18423,7 +18423,7 @@
       "tid": 1078,
       "source_channel_id": 161884,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-25",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18454,7 +18454,7 @@
       "tid": 1078,
       "source_channel_id": 161883,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-25",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18485,7 +18485,7 @@
       "tid": 1078,
       "source_channel_id": 159628,
       "source_transponder_id": 1300,
-      "updated": "2026-07-24",
+      "updated": "2026-06-25",
       "tp_id": "astra_19_2:11973:V:27500"
     },
     {
@@ -18578,7 +18578,7 @@
       "tid": 13,
       "source_channel_id": 154056,
       "source_transponder_id": 1367,
-      "updated": "2026-07-24",
+      "updated": "2026-05-24",
       "tp_id": "astra_19_2:11993:H:27500"
     },
     {
@@ -18888,7 +18888,7 @@
       "tid": 1080,
       "source_channel_id": 161334,
       "source_transponder_id": 1368,
-      "updated": "2026-07-24",
+      "updated": "2026-05-19",
       "tp_id": "astra_19_2:12012:V:29700"
     },
     {
@@ -19291,7 +19291,7 @@
       "tid": 4,
       "source_channel_id": 152415,
       "source_transponder_id": 1369,
-      "updated": "2026-07-24",
+      "updated": "2026-07-20",
       "tp_id": "astra_19_2:12032:H:27500"
     },
     {
@@ -20655,7 +20655,7 @@
       "tid": 7,
       "source_channel_id": 168163,
       "source_transponder_id": 1276,
-      "updated": "2026-07-24",
+      "updated": "2026-06-16",
       "tp_id": "astra_19_2:12148:H:27500"
     },
     {
@@ -20903,7 +20903,7 @@
       "tid": 1088,
       "source_channel_id": 167776,
       "source_transponder_id": 1291,
-      "updated": "2026-07-24",
+      "updated": "2026-05-27",
       "tp_id": "astra_19_2:12168:V:29700"
     },
     {
@@ -21585,7 +21585,7 @@
       "tid": 1090,
       "source_channel_id": 160608,
       "source_transponder_id": 1278,
-      "updated": "2026-07-24",
+      "updated": "2026-05-19",
       "tp_id": "astra_19_2:12207:V:29700"
     },
     {
@@ -21957,7 +21957,7 @@
       "tid": 1090,
       "source_channel_id": 163922,
       "source_transponder_id": 1278,
-      "updated": "2026-07-24",
+      "updated": "2026-07-20",
       "tp_id": "astra_19_2:12207:V:29700"
     },
     {
@@ -23724,7 +23724,7 @@
       "tid": 12,
       "source_channel_id": 162079,
       "source_transponder_id": 1372,
-      "updated": "2026-07-24",
+      "updated": "2026-07-20",
       "tp_id": "astra_19_2:12305:H:27500"
     },
     {
@@ -23817,7 +23817,7 @@
       "tid": 12,
       "source_channel_id": 168485,
       "source_transponder_id": 1372,
-      "updated": "2026-07-24",
+      "updated": "2026-07-02",
       "tp_id": "astra_19_2:12305:H:27500"
     },
     {
@@ -24251,7 +24251,7 @@
       "tid": 1096,
       "source_channel_id": 163900,
       "source_transponder_id": 11613,
-      "updated": "2026-07-24",
+      "updated": "2026-07-21",
       "tp_id": "astra_19_2:12324:V:29700"
     },
     {
@@ -25088,7 +25088,7 @@
       "tid": 11,
       "source_channel_id": 168486,
       "source_transponder_id": 1373,
-      "updated": "2026-07-24",
+      "updated": "2026-07-02",
       "tp_id": "astra_19_2:12383:H:27500"
     },
     {
@@ -25770,7 +25770,7 @@
       "tid": 5,
       "source_channel_id": 168484,
       "source_transponder_id": 1287,
-      "updated": "2026-07-24",
+      "updated": "2026-07-02",
       "tp_id": "astra_19_2:12460:H:27500"
     },
     {
@@ -28653,7 +28653,7 @@
       "tid": 1115,
       "source_channel_id": 161805,
       "source_transponder_id": 1294,
-      "updated": "2026-07-24",
+      "updated": "2026-07-23",
       "tp_id": "astra_19_2:12663:H:22000"
     },
     {
