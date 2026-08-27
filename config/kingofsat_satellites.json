@@ -22,5 +22,11 @@
     "name": "Azerspace-1",
     "position": "46.0E",
     "url": "https://tr.kingofsat.net/pos-46E"
+  },
+  {
+    "id": "eutelsat_16",
+    "name": "Eutelsat 16A",
+    "position": "16.0E",
+    "url": "https://tr.kingofsat.net/pos-16E"
   }
 ]
