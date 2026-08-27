@@ -10,6 +10,7 @@ MINIMUMS = {
     "hotbird_13": {"channels": 500, "transponders": 50},
     "hellas_39": {"channels": 20, "transponders": 5},
     "azerspace_46": {"channels": 50, "transponders": 10},
+    "eutelsat_16": {"channels": 500, "transponders": 50},
 }
 
 for sat in CONFIG:
