@@ -45,6 +45,17 @@
       "source_updated": "2026-08-25",
       "forbidden_records": 0,
       "missing_core_fields": 0
+    },
+    {
+      "id": "eutelsat_16",
+      "ok": true,
+      "transponders": 43,
+      "channels": 780,
+      "tv": 639,
+      "radio": 141,
+      "source_updated": "2026-08-18",
+      "forbidden_records": 0,
+      "missing_core_fields": 0
     }
   ]
 }
