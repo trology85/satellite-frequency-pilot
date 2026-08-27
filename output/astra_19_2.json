@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-07-23T11:42:54.690407+00:00",
+  "generated_utc": "2026-08-27T11:58:49.802603+00:00",
   "source": {
     "name": "KingOfSat",
     "url": "https://tr.kingofsat.net/pos-19.2E",
-    "last_updated": "2026-07-23"
+    "last_updated": "2026-08-20"
   },
   "satellite": {
     "id": "astra_19_2",
@@ -13,8 +13,8 @@
   },
   "counts": {
     "transponders": 86,
-    "channels": 813,
-    "tv": 684,
+    "channels": 812,
+    "tv": 683,
     "radio": 129
   },
   "transponders": [
@@ -151,7 +151,7 @@
       "modulation": "8PSK",
       "symbol_rate": 22000,
       "fec": "2/3",
-      "network": "ASTRA 1 , 42.6 Mb/s",
+      "network": "42.6 Mb/s",
       "nid": "1",
       "tid": "1057",
       "channel_count": 6,
@@ -211,7 +211,7 @@
       "modulation": "8PSK",
       "symbol_rate": 22000,
       "fec": "2/3",
-      "network": "42.6 Mb/s",
+      "network": "ASTRA 1 , 42.6 Mb/s",
       "nid": "1",
       "tid": "1061",
       "channel_count": 26,
@@ -331,7 +331,7 @@
       "modulation": "8PSK",
       "symbol_rate": 22000,
       "fec": "5/6",
-      "network": "ASTRA 1 , 53.3 Mb/s",
+      "network": "53.3 Mb/s",
       "nid": "1",
       "tid": "1035",
       "channel_count": 3,
@@ -431,7 +431,7 @@
       "modulation": "8PSK",
       "symbol_rate": 21997,
       "fec": "3/4",
-      "network": "47.9 Mb/s",
+      "network": "ASTRA 1 , 47.9 Mb/s",
       "nid": "1",
       "tid": "1041",
       "channel_count": 6,
@@ -494,8 +494,8 @@
       "network": "ASTRA 1 , 33.8 Mb/s",
       "nid": "1",
       "tid": "1044",
-      "channel_count": 10,
-      "tv_count": 10,
+      "channel_count": 9,
+      "tv_count": 9,
       "radio_count": 0
     },
     {
@@ -651,7 +651,7 @@
       "modulation": "8PSK",
       "symbol_rate": 22000,
       "fec": "2/3",
-      "network": "ASTRA 1 , 42.6 Mb/s",
+      "network": "42.6 Mb/s",
       "nid": "1",
       "tid": "1007",
       "channel_count": 18,
@@ -791,7 +791,7 @@
       "modulation": "8PSK",
       "symbol_rate": 21998,
       "fec": "2/3",
-      "network": "42.6 Mb/s",
+      "network": "ASTRA 1 , 42.6 Mb/s",
       "nid": "1",
       "tid": "1019",
       "channel_count": 4,
@@ -811,7 +811,7 @@
       "modulation": "8PSK",
       "symbol_rate": 22000,
       "fec": "2/3",
-      "network": "42.6 Mb/s",
+      "network": "ASTRA 1 , 42.6 Mb/s",
       "nid": "1",
       "tid": "1021",
       "channel_count": 11,
@@ -871,7 +871,7 @@
       "modulation": "8PSK",
       "symbol_rate": 21998,
       "fec": "2/3",
-      "network": "ASTRA 1 , 42.6 Mb/s",
+      "network": "42.6 Mb/s",
       "nid": "1",
       "tid": "1025",
       "channel_count": 7,
@@ -1371,7 +1371,7 @@
       "modulation": "QPSK",
       "symbol_rate": 27500,
       "fec": "3/4",
-      "network": "ASTRA 1 , 38 Mb/s",
+      "network": "38 Mb/s",
       "nid": "1",
       "tid": "1091",
       "channel_count": 7,
@@ -1391,7 +1391,7 @@
       "modulation": "8PSK",
       "symbol_rate": 29700,
       "fec": "2/3",
-      "network": "57.5 Mb/s",
+      "network": "ASTRA 1 , 57.5 Mb/s",
       "nid": "1",
       "tid": "1094",
       "channel_count": 39,
@@ -1431,7 +1431,7 @@
       "modulation": "8PSK",
       "symbol_rate": 29700,
       "fec": "2/3",
-      "network": "57.5 Mb/s",
+      "network": "ASTRA 1 , 57.5 Mb/s",
       "nid": "1",
       "tid": "1096",
       "channel_count": 16,
@@ -1491,7 +1491,7 @@
       "modulation": "8PSK",
       "symbol_rate": 29700,
       "fec": "2/3",
-      "network": "57.5 Mb/s",
+      "network": "ASTRA 1 , 57.5 Mb/s",
       "nid": "1",
       "tid": "1100",
       "channel_count": 14,
@@ -1531,7 +1531,7 @@
       "modulation": "QPSK",
       "symbol_rate": 27500,
       "fec": "3/4",
-      "network": "ASTRA 1 , 38 Mb/s",
+      "network": "38 Mb/s",
       "nid": "133",
       "tid": "5",
       "channel_count": 10,
@@ -1743,6 +1743,7 @@
     {
       "name": "La 1 UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1770,6 +1771,7 @@
     {
       "name": "La 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1797,6 +1799,7 @@
     {
       "name": "Canal 24 Horas",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1824,6 +1827,7 @@
     {
       "name": "Clan TVE",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1851,6 +1855,7 @@
     {
       "name": "Teledeporte",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1878,6 +1883,7 @@
     {
       "name": "Trece",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1905,6 +1911,7 @@
     {
       "name": "Dkiss",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1932,6 +1939,7 @@
     {
       "name": "A Punt HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1959,6 +1967,7 @@
     {
       "name": "ETB 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -1986,6 +1995,7 @@
     {
       "name": "TPA Asturias HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2013,6 +2023,7 @@
     {
       "name": "Canal Sur Andalucia",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2040,6 +2051,7 @@
     {
       "name": "Movistar Plus+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2067,6 +2079,7 @@
     {
       "name": "LaLiga TV Hypermotion",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2092,8 +2105,9 @@
       "tp_id": "astra_19_2:10758.5:V:22000"
     },
     {
-      "name": "DAZN Mundial 2 HD",
+      "name": "DAZN LaLiga 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2110,17 +2124,18 @@
       "encryption": "Nagravision 3",
       "free_to_air": false,
       "vpid": "163",
-      "audio": "92 / esp / 93 / cat / 94 / gal / 95 eus / 127 val",
+      "audio": "92 / esp / 93 / cat / 94 eus / 95 / gal / 127 val",
       "pmt_pid": "1027",
       "pcr_pid": "163",
       "txt_pid": "",
-      "source_channel_id": 25932,
-      "updated": "2026-06-03",
+      "source_channel_id": 23154,
+      "updated": "2026-07-27",
       "tp_id": "astra_19_2:10758.5:V:22000"
     },
     {
       "name": "Canal+ Liga Campeones 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2148,6 +2163,7 @@
     {
       "name": "Movistar Liga Campeones 2",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2175,6 +2191,7 @@
     {
       "name": "Movistar Liga Campeones 3",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2202,6 +2219,7 @@
     {
       "name": "Mezzo Live HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2229,6 +2247,7 @@
     {
       "name": "Movistar LaLiga 3 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2256,6 +2275,7 @@
     {
       "name": "Movistar Vamos 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2283,6 +2303,7 @@
     {
       "name": "Anixe HD Serie",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2310,6 +2331,7 @@
     {
       "name": "QVC HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2337,6 +2359,7 @@
     {
       "name": "HSE24 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2364,6 +2387,7 @@
     {
       "name": "Shop LC HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2391,6 +2415,7 @@
     {
       "name": "Welt HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2418,6 +2443,7 @@
     {
       "name": "Movistar Baloncesto",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2443,8 +2469,9 @@
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
-      "name": "DAZN Mundial 2",
+      "name": "DAZN LaLiga 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2465,13 +2492,14 @@
       "pmt_pid": "1030",
       "pcr_pid": "5065",
       "txt_pid": "",
-      "source_channel_id": 25933,
-      "updated": "2026-06-03",
+      "source_channel_id": 23153,
+      "updated": "2026-07-27",
       "tp_id": "astra_19_2:10788:V:22000"
     },
     {
       "name": "Multideporte",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2499,6 +2527,7 @@
     {
       "name": "DAZN Baloncesto 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2526,6 +2555,7 @@
     {
       "name": "Movistar Orgullo",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2553,6 +2583,7 @@
     {
       "name": "Nick Junior Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2580,6 +2611,7 @@
     {
       "name": "Mezzo",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2607,6 +2639,7 @@
     {
       "name": "LaLiga TV Bar 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2634,6 +2667,7 @@
     {
       "name": "Movistar Deportes 6",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2661,6 +2695,7 @@
     {
       "name": "Movistar LaLiga 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2688,6 +2723,7 @@
     {
       "name": "La Sexta",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2715,6 +2751,7 @@
     {
       "name": "Movistar Liga Campeones 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2742,6 +2779,7 @@
     {
       "name": "Multideporte",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2769,6 +2807,7 @@
     {
       "name": "DAZN 1 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2796,6 +2835,7 @@
     {
       "name": "Eurosport 2 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2823,6 +2863,7 @@
     {
       "name": "Disney Channel HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2850,6 +2891,7 @@
     {
       "name": "HSE24 Extra HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2877,6 +2919,7 @@
     {
       "name": "1-2-3.tv HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2904,6 +2947,7 @@
     {
       "name": "Deluxe Music HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2931,6 +2975,7 @@
     {
       "name": "QVC 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2958,6 +3003,7 @@
     {
       "name": "Sport 1 HD (Germany)",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -2985,6 +3031,7 @@
     {
       "name": "Disney Channel HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3012,6 +3059,7 @@
     {
       "name": "Deluxe Music HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3039,6 +3087,7 @@
     {
       "name": "LaLiga TV Bar HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3066,6 +3115,7 @@
     {
       "name": "1“ Federacion HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3093,6 +3143,7 @@
     {
       "name": "#Vamos HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3120,6 +3171,7 @@
     {
       "name": "Movistar Accion HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3147,6 +3199,7 @@
     {
       "name": "Movistar Drama HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3174,6 +3227,7 @@
     {
       "name": "Movistar+ Originales HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3201,6 +3255,7 @@
     {
       "name": "Movistar LaLiga 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3228,6 +3283,7 @@
     {
       "name": "Movistar LaLiga HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3255,6 +3311,7 @@
     {
       "name": "RTL HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3282,6 +3339,7 @@
     {
       "name": "Vox HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3309,6 +3367,7 @@
     {
       "name": "n-tv HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3336,6 +3395,7 @@
     {
       "name": "RTL 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3363,6 +3423,7 @@
     {
       "name": "RTLup HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3390,6 +3451,7 @@
     {
       "name": "VOXup HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3417,6 +3479,7 @@
     {
       "name": "Bajo Demanda",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3444,6 +3507,7 @@
     {
       "name": "Movistar Golf",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3471,6 +3535,7 @@
     {
       "name": "Baby TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3498,6 +3563,7 @@
     {
       "name": "Playboy TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3525,6 +3591,7 @@
     {
       "name": "Telecinco",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3552,6 +3619,7 @@
     {
       "name": "National Geographic Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3579,6 +3647,7 @@
     {
       "name": "#Vamos Bar",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3606,6 +3675,7 @@
     {
       "name": "Movistar Deportes 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3633,6 +3703,7 @@
     {
       "name": "Calle 13",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3660,6 +3731,7 @@
     {
       "name": "Cuatro",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3687,6 +3759,7 @@
     {
       "name": "LaLiga TV Bar 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3714,6 +3787,7 @@
     {
       "name": "BBC Top Gear",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3741,6 +3815,7 @@
     {
       "name": "SyFy Universal Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3768,6 +3843,7 @@
     {
       "name": "Movistar LaLiga",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3795,6 +3871,7 @@
     {
       "name": "rbb Brandenburg HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3822,6 +3899,7 @@
     {
       "name": "rbb Berlin HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3849,6 +3927,7 @@
     {
       "name": "MDR Sachsen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3876,6 +3955,7 @@
     {
       "name": "MDR S-Anhalt HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3903,6 +3983,7 @@
     {
       "name": "MDR Thüringen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3930,6 +4011,7 @@
     {
       "name": "hr-fernsehen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3957,6 +4039,7 @@
     {
       "name": "hr1",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -3984,6 +4067,7 @@
     {
       "name": "hr2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4011,6 +4095,7 @@
     {
       "name": "hr3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4038,6 +4123,7 @@
     {
       "name": "hr4",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4065,6 +4151,7 @@
     {
       "name": "DASDING vom hr",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4092,6 +4179,7 @@
     {
       "name": "hr INFO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4119,6 +4207,7 @@
     {
       "name": "MDR SACHSEN DD",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4146,6 +4235,7 @@
     {
       "name": "MDR S-ANHALT MD",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4173,6 +4263,7 @@
     {
       "name": "MDR THÜR Mitte-W",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4200,6 +4291,7 @@
     {
       "name": "MDR KULTUR",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4227,6 +4319,7 @@
     {
       "name": "MDR JUMP",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4254,6 +4347,7 @@
     {
       "name": "MDR SPUTNIK",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4281,6 +4375,7 @@
     {
       "name": "MDR AKTUELL",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4308,6 +4403,7 @@
     {
       "name": "MDR KLASSIK",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4335,6 +4431,7 @@
     {
       "name": "rbb24 Inforadio",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4362,6 +4459,7 @@
     {
       "name": "radio3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4389,6 +4487,7 @@
     {
       "name": "Antenne Brbg.",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4416,6 +4515,7 @@
     {
       "name": "rbb 88.8",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4443,6 +4543,7 @@
     {
       "name": "radioeins",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4470,6 +4571,7 @@
     {
       "name": "Fritz",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4497,6 +4599,7 @@
     {
       "name": "DAZN F1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4524,6 +4627,7 @@
     {
       "name": "Movistar Deportes 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4551,6 +4655,7 @@
     {
       "name": "Movistar+ Indie HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4576,8 +4681,9 @@
       "tp_id": "astra_19_2:10906:V:22000"
     },
     {
-      "name": "DAZN Mundial HD",
+      "name": "DAZN LaLiga HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4598,13 +4704,14 @@
       "pmt_pid": "1027",
       "pcr_pid": "163",
       "txt_pid": "",
-      "source_channel_id": 25934,
-      "updated": "2026-06-01",
+      "source_channel_id": 23155,
+      "updated": "2026-07-27",
       "tp_id": "astra_19_2:10906:V:22000"
     },
     {
       "name": "Eurosport 1 Spain HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4632,6 +4739,7 @@
     {
       "name": "Movistar Baloncesto HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4659,6 +4767,7 @@
     {
       "name": "Movistar Comedia HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4686,6 +4795,7 @@
     {
       "name": "Movistar Estrenos HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4713,6 +4823,7 @@
     {
       "name": "Schlager Deluxe",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4740,6 +4851,7 @@
     {
       "name": "HGTV Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4767,6 +4879,7 @@
     {
       "name": "LaLiga TV Hypermotion",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4794,6 +4907,7 @@
     {
       "name": "DAZN Baloncesto 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4821,6 +4935,7 @@
     {
       "name": "LaLiga TV Hypermotion 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4848,6 +4963,7 @@
     {
       "name": "Movistar Deportes 7",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4875,6 +4991,7 @@
     {
       "name": "LaLiga TV Bar 4",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4902,6 +5019,7 @@
     {
       "name": "LaLiga TV Hypermotion 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4929,6 +5047,7 @@
     {
       "name": "TLC HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4956,6 +5075,7 @@
     {
       "name": "Handystar TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -4983,6 +5103,7 @@
     {
       "name": "HSE Trend HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5010,6 +5131,7 @@
     {
       "name": "QVC Style HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5037,6 +5159,7 @@
     {
       "name": "TLC Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5064,6 +5187,7 @@
     {
       "name": "Factoria de Ficcion",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5091,6 +5215,7 @@
     {
       "name": "Movistar LaLiga 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5118,6 +5243,7 @@
     {
       "name": "DAZN 3 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5145,6 +5271,7 @@
     {
       "name": "Movistar Deportes 4",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5172,6 +5299,7 @@
     {
       "name": "DAZN 4 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5199,6 +5327,7 @@
     {
       "name": "BBC Series",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5226,6 +5355,7 @@
     {
       "name": "Movistar Deportes 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5253,6 +5383,7 @@
     {
       "name": "Movistar Liga Campeones 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5280,6 +5411,7 @@
     {
       "name": "Movistar Liga Campeones 5",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5307,6 +5439,7 @@
     {
       "name": "Movistar Clasicos",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5334,6 +5467,7 @@
     {
       "name": "DreamWorks",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5361,6 +5495,7 @@
     {
       "name": "Movistar Deportes 5",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5388,6 +5523,7 @@
     {
       "name": "Movistar Deportes 8",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5415,6 +5551,7 @@
     {
       "name": "Movistar Liga Campeones 4",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5442,6 +5579,7 @@
     {
       "name": "SES UHD Demo",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5469,6 +5607,7 @@
     {
       "name": "UHD1 by ASTRA / HD+",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5496,6 +5635,7 @@
     {
       "name": "Pro7Sat.1 UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5523,6 +5663,7 @@
     {
       "name": "Antena 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5550,6 +5691,7 @@
     {
       "name": "Neox",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5577,6 +5719,7 @@
     {
       "name": "Nova",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5604,6 +5747,7 @@
     {
       "name": "Atreseries",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5631,6 +5775,7 @@
     {
       "name": "La Sexta",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5658,6 +5803,7 @@
     {
       "name": "Mega (Spain)",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5685,6 +5831,7 @@
     {
       "name": "Telecinco",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5712,6 +5859,7 @@
     {
       "name": "FDF Telecinco",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5739,6 +5887,7 @@
     {
       "name": "Boing Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5766,6 +5915,7 @@
     {
       "name": "Cuatro",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5793,6 +5943,7 @@
     {
       "name": "Divinity",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5820,6 +5971,7 @@
     {
       "name": "Energy",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5847,6 +5999,7 @@
     {
       "name": "Be Mad",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5874,6 +6027,7 @@
     {
       "name": "Real Madrid TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5901,6 +6055,7 @@
     {
       "name": "Movistar Estrenos",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5928,6 +6083,7 @@
     {
       "name": "Clan TVE",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5955,6 +6111,7 @@
     {
       "name": "La 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -5982,6 +6139,7 @@
     {
       "name": "BBC Lifestyle Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6009,6 +6167,7 @@
     {
       "name": "BBC Earth Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6036,6 +6195,7 @@
     {
       "name": "LaLiga TV Bar 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6063,6 +6223,7 @@
     {
       "name": "TCM Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6090,6 +6251,7 @@
     {
       "name": "Comedy Central Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6115,8 +6277,9 @@
       "tp_id": "astra_19_2:11038:V:22000"
     },
     {
-      "name": "DAZN Mundial",
+      "name": "DAZN LaLiga",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6137,13 +6300,14 @@
       "pmt_pid": "1034",
       "pcr_pid": "5162",
       "txt_pid": "",
-      "source_channel_id": 25935,
-      "updated": "2026-06-01",
+      "source_channel_id": 23152,
+      "updated": "2026-07-27",
       "tp_id": "astra_19_2:11038:V:22000"
     },
     {
       "name": "Movistar Hits",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6171,6 +6335,7 @@
     {
       "name": "Warner TV Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6198,6 +6363,7 @@
     {
       "name": "Teledeporte",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6225,6 +6391,7 @@
     {
       "name": "BBC Food Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6252,6 +6419,7 @@
     {
       "name": "Movistar+ Indie",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6279,6 +6447,7 @@
     {
       "name": "Tagesschau 24 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6306,6 +6475,7 @@
     {
       "name": "One HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6333,6 +6503,7 @@
     {
       "name": "ARD-alpha HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6360,6 +6531,7 @@
     {
       "name": "SR Fernsehen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6387,6 +6559,7 @@
     {
       "name": "Radio Bremen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6414,6 +6587,7 @@
     {
       "name": "Bayern 1",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6441,6 +6615,7 @@
     {
       "name": "Bayern 2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6468,6 +6643,7 @@
     {
       "name": "BAYERN 3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6495,6 +6671,7 @@
     {
       "name": "BR-KLASSIK",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6522,6 +6699,7 @@
     {
       "name": "BR24",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6549,6 +6727,7 @@
     {
       "name": "BR Schlager",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6576,6 +6755,7 @@
     {
       "name": "BR-Heimat",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6603,6 +6783,7 @@
     {
       "name": "NDR 2 NDS",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6630,6 +6811,7 @@
     {
       "name": "NDR Kultur",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6657,6 +6839,7 @@
     {
       "name": "NDR Info NDS",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6684,6 +6867,7 @@
     {
       "name": "N-JOY",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6711,6 +6895,7 @@
     {
       "name": "NDR 90,3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6738,6 +6923,7 @@
     {
       "name": "NDR1 Welle Nord KI",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6765,6 +6951,7 @@
     {
       "name": "NDR 1 Radio MV SN",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6792,6 +6979,7 @@
     {
       "name": "NDR 1 Nieders. HAN",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6819,6 +7007,7 @@
     {
       "name": "NDR Info Spezial",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6846,6 +7035,7 @@
     {
       "name": "NDR Blue",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6873,6 +7063,7 @@
     {
       "name": "NDR Schlager",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6900,6 +7091,7 @@
     {
       "name": "Bremen Eins",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6927,6 +7119,7 @@
     {
       "name": "Bremen Zwei",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6954,6 +7147,7 @@
     {
       "name": "Bremen Vier",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -6981,6 +7175,7 @@
     {
       "name": "Bremen NEXT",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7008,6 +7203,7 @@
     {
       "name": "SR 1 Europawelle",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7035,6 +7231,7 @@
     {
       "name": "SR kultur",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7062,6 +7259,7 @@
     {
       "name": "SR 3 Saarlandwelle",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7089,6 +7287,7 @@
     {
       "name": "SWR1 BW",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7116,6 +7315,7 @@
     {
       "name": "SWR1 RLP",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7143,6 +7343,7 @@
     {
       "name": "SWR Kultur",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7170,6 +7371,7 @@
     {
       "name": "SWR3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7197,6 +7399,7 @@
     {
       "name": "SWR4 S",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7224,6 +7427,7 @@
     {
       "name": "SWR4 MZ",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7251,6 +7455,7 @@
     {
       "name": "DASDING vom SWR",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7278,6 +7483,7 @@
     {
       "name": "SWR Aktuell",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7305,6 +7511,7 @@
     {
       "name": "SWR 5.1 Kultur",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7332,6 +7539,7 @@
     {
       "name": "1LIVE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7359,6 +7567,7 @@
     {
       "name": "WDR 2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7386,6 +7595,7 @@
     {
       "name": "WDR 3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7413,6 +7623,7 @@
     {
       "name": "WDR 4",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7440,6 +7651,7 @@
     {
       "name": "WDR 5",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7467,6 +7679,7 @@
     {
       "name": "COSMO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7494,6 +7707,7 @@
     {
       "name": "1LIVE diGGi",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7521,6 +7735,7 @@
     {
       "name": "Die Maus",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7548,6 +7763,7 @@
     {
       "name": "WDR Event",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7575,6 +7791,7 @@
     {
       "name": "Die Neue Zeit TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7602,6 +7819,7 @@
     {
       "name": "Telesur HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7629,6 +7847,7 @@
     {
       "name": "S Neu Jerusalem",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7656,6 +7875,7 @@
     {
       "name": "Sachsen Eins",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7683,6 +7903,7 @@
     {
       "name": "Anewz",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7710,6 +7931,7 @@
     {
       "name": "RTL HD Österreich",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7737,6 +7959,7 @@
     {
       "name": "VOX HD Österreich",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7764,6 +7987,7 @@
     {
       "name": "Super RTL HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7791,6 +8015,7 @@
     {
       "name": "RTL 2 HD Österreich",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7818,6 +8043,7 @@
     {
       "name": "RTL Nitro HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7845,6 +8071,7 @@
     {
       "name": "n-tv Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -7872,6 +8099,7 @@
     {
       "name": "DAZN Baloncesto 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7899,6 +8127,7 @@
     {
       "name": "DAZN Moto GP",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7926,6 +8155,7 @@
     {
       "name": "Movistar Baloncesto 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7953,6 +8183,7 @@
     {
       "name": "#Vamos Bar2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -7980,6 +8211,7 @@
     {
       "name": "Movistar Golf 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8007,6 +8239,7 @@
     {
       "name": "DAZN 1 Bar HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8034,6 +8267,7 @@
     {
       "name": "Classica",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8061,6 +8295,7 @@
     {
       "name": "Movistar Vamos 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8088,6 +8323,7 @@
     {
       "name": "Movistar Liga Campeones",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8115,6 +8351,7 @@
     {
       "name": "AXN Movies",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8142,6 +8379,7 @@
     {
       "name": "DAZN 2 Bar HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8169,6 +8407,7 @@
     {
       "name": "1'' Federacion",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8196,6 +8435,7 @@
     {
       "name": "Neox",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8223,6 +8463,7 @@
     {
       "name": "Movistar Plus+",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8250,6 +8491,7 @@
     {
       "name": "Eurosport 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8277,6 +8519,7 @@
     {
       "name": "DFB.TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8304,6 +8547,7 @@
     {
       "name": "K-TV Fernsehen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8329,35 +8573,9 @@
       "tp_id": "astra_19_2:11111.75:H:22000"
     },
     {
-      "name": "DAZN Mundial 4",
-      "type": "TV",
-      "satellite_group": "Astra 1M/1N/1P",
-      "spacecraft": "Astra 1P",
-      "position": "19.2E",
-      "frequency": 11126.5,
-      "polarization": "V",
-      "symbol_rate": 22000,
-      "fec": "5/6",
-      "system": "DVB-S",
-      "modulation": "QPSK",
-      "sid": 30852,
-      "country": "İspanya",
-      "category": "Spor",
-      "package": "Movistar+",
-      "encryption": "Nagravision 3",
-      "free_to_air": false,
-      "vpid": "167",
-      "audio": "118 / esp / 119 / cat / 144 eus / 145 / gal / 146 val",
-      "pmt_pid": "1032",
-      "pcr_pid": "5167",
-      "txt_pid": "",
-      "source_channel_id": 25936,
-      "updated": "2026-06-01",
-      "tp_id": "astra_19_2:11126.5:V:22000"
-    },
-    {
       "name": "M+ Vacaciones",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8385,6 +8603,7 @@
     {
       "name": "Boing Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8412,6 +8631,7 @@
     {
       "name": "Energy",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8439,6 +8659,7 @@
     {
       "name": "Divinity",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8466,6 +8687,7 @@
     {
       "name": "MTV Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8493,6 +8715,7 @@
     {
       "name": "Gol Play",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8520,6 +8743,7 @@
     {
       "name": "Be Mad",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8545,8 +8769,37 @@
       "tp_id": "astra_19_2:11126.5:V:22000"
     },
     {
+      "name": "Movistar LaLiga 4",
+      "type": "TV",
+      "quality": "UNKNOWN",
+      "satellite_group": "Astra 1M/1N/1P",
+      "spacecraft": "Astra 1P",
+      "position": "19.2E",
+      "frequency": 11126.5,
+      "polarization": "V",
+      "symbol_rate": 22000,
+      "fec": "5/6",
+      "system": "DVB-S",
+      "modulation": "QPSK",
+      "sid": 30866,
+      "country": "İspanya",
+      "category": "Spor",
+      "package": "Movistar+",
+      "encryption": "Nagravision 3",
+      "free_to_air": false,
+      "vpid": "171",
+      "audio": "124 / esp / 125 / vo / 120 / 121 / 122 / 123",
+      "pmt_pid": "1040",
+      "pcr_pid": "5171",
+      "txt_pid": "",
+      "source_channel_id": 19735,
+      "updated": "2026-08-06",
+      "tp_id": "astra_19_2:11126.5:V:22000"
+    },
+    {
       "name": "Mundial Baloncesto 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8572,35 +8825,9 @@
       "tp_id": "astra_19_2:11126.5:V:22000"
     },
     {
-      "name": "DAZN Mundial 3",
-      "type": "TV",
-      "satellite_group": "Astra 1M/1N/1P",
-      "spacecraft": "Astra 1P",
-      "position": "19.2E",
-      "frequency": 11126.5,
-      "polarization": "V",
-      "symbol_rate": 22000,
-      "fec": "5/6",
-      "system": "DVB-S",
-      "modulation": "QPSK",
-      "sid": 30868,
-      "country": "İspanya",
-      "category": "Spor",
-      "package": "Movistar+",
-      "encryption": "Nagravision 3",
-      "free_to_air": false,
-      "vpid": "173",
-      "audio": "134 / esp / 135 / cat / 141 eus / 142 / gal / 143 val",
-      "pmt_pid": "1042",
-      "pcr_pid": "5173",
-      "txt_pid": "",
-      "source_channel_id": 25937,
-      "updated": "2026-06-01",
-      "tp_id": "astra_19_2:11126.5:V:22000"
-    },
-    {
       "name": "Canal Sur Andalucia",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8628,6 +8855,7 @@
     {
       "name": "DAZN 2 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8653,8 +8881,9 @@
       "tp_id": "astra_19_2:11156:V:22000"
     },
     {
-      "name": "Caza y Pesca",
+      "name": "LaLiga TV Bar 5",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8666,22 +8895,23 @@
       "modulation": "QPSK",
       "sid": 30507,
       "country": "İspanya",
-      "category": "Belgeseller",
+      "category": "Spor",
       "package": "Movistar+",
       "encryption": "Nagravision 3",
       "free_to_air": false,
       "vpid": "169",
-      "audio": "116 / esp / 117",
+      "audio": "116 / esp / 117 / vo",
       "pmt_pid": "1031",
       "pcr_pid": "5169",
-      "txt_pid": "59",
-      "source_channel_id": 2308,
-      "updated": "2026-02-26",
+      "txt_pid": "",
+      "source_channel_id": 23810,
+      "updated": "2026-08-12",
       "tp_id": "astra_19_2:11156:V:22000"
     },
     {
       "name": "Antena 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8709,6 +8939,7 @@
     {
       "name": "Eurosport 1 Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8736,6 +8967,7 @@
     {
       "name": "Nickelodeon Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8763,6 +8995,7 @@
     {
       "name": "Discovery Channel Spain & Portugal",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8790,6 +9023,7 @@
     {
       "name": "Cosmopolitan TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8817,6 +9051,7 @@
     {
       "name": "BBC History Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8844,6 +9079,7 @@
     {
       "name": "DAZN F1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8871,6 +9107,7 @@
     {
       "name": "#Vamos",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8898,6 +9135,7 @@
     {
       "name": "Movistar Cine Español",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8925,6 +9163,7 @@
     {
       "name": "Canal 24 Horas",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8952,6 +9191,7 @@
     {
       "name": "Movistar Deportes 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -8979,6 +9219,7 @@
     {
       "name": "Sport Digital Fussball HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9006,6 +9247,7 @@
     {
       "name": "Sport 1 +",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9033,6 +9275,7 @@
     {
       "name": "eSports One",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9060,6 +9303,7 @@
     {
       "name": "Edge Sport",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9087,6 +9331,7 @@
     {
       "name": "Waidwerk",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9114,6 +9359,7 @@
     {
       "name": "ClipMyHorse.TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9141,6 +9387,7 @@
     {
       "name": "BBC News HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9168,6 +9415,7 @@
     {
       "name": "NHK World HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9184,7 +9432,7 @@
       "encryption": "sifresiz",
       "free_to_air": true,
       "vpid": "1760",
-      "audio": "1720 / eng",
+      "audio": "1120 / eng",
       "pmt_pid": "5071",
       "pcr_pid": "1760",
       "txt_pid": "",
@@ -9195,6 +9443,7 @@
     {
       "name": "Al Jazeera English HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9222,6 +9471,7 @@
     {
       "name": "Aragon TV HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9249,6 +9499,7 @@
     {
       "name": "IB Sat",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9276,6 +9527,7 @@
     {
       "name": "La 7 Castillaleon",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9303,6 +9555,7 @@
     {
       "name": "Extremadura TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9330,6 +9583,7 @@
     {
       "name": "TVG 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9357,6 +9611,7 @@
     {
       "name": "Lilo.TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9384,6 +9639,7 @@
     {
       "name": "ATV 2 Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9411,6 +9667,7 @@
     {
       "name": "Bibel TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9438,6 +9695,7 @@
     {
       "name": "Hope Channel HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9465,6 +9723,7 @@
     {
       "name": "ATV HD (Austria)",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9492,6 +9751,7 @@
     {
       "name": "RTLup Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9519,6 +9779,7 @@
     {
       "name": "Movistar Liga Campeones",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9546,6 +9807,7 @@
     {
       "name": "Movistar Vamos 3 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9573,6 +9835,7 @@
     {
       "name": "Movistar Hits HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9600,6 +9863,7 @@
     {
       "name": "Movistar Golf HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9627,6 +9891,7 @@
     {
       "name": "Caza y Pesca HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9654,6 +9919,7 @@
     {
       "name": "Movistar+ Documentales HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9681,6 +9947,7 @@
     {
       "name": "Movistar Clasicos HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9708,6 +9975,7 @@
     {
       "name": "Movistar Deportes 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9735,6 +10003,7 @@
     {
       "name": "ORF 2 Steiermark",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9762,6 +10031,7 @@
     {
       "name": "ORF 2 Kärnten",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9789,6 +10059,7 @@
     {
       "name": "ORF 2 Burgenland",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9816,6 +10087,7 @@
     {
       "name": "ORF 2 OberÖsterreich",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9843,6 +10115,7 @@
     {
       "name": "ORF 2 Salzburg",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9870,6 +10143,7 @@
     {
       "name": "ORF 2 Tirol",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9897,6 +10171,7 @@
     {
       "name": "ORF 2 Vorarlberg",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9924,6 +10199,7 @@
     {
       "name": "ORF III HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9951,6 +10227,7 @@
     {
       "name": "ORF Sport+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -9978,6 +10255,7 @@
     {
       "name": "ORF 2 Europe",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10005,6 +10283,7 @@
     {
       "name": "Aristo.TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10032,6 +10311,7 @@
     {
       "name": "R9 Österreich HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10059,6 +10339,7 @@
     {
       "name": "Krone TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10086,6 +10367,7 @@
     {
       "name": "oe24.TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10113,6 +10395,7 @@
     {
       "name": "TV1 OOE",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10140,6 +10423,7 @@
     {
       "name": "Stimmungsgarten TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10167,6 +10451,7 @@
     {
       "name": "Melodie TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10194,6 +10479,7 @@
     {
       "name": "TRWAM",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10221,6 +10507,7 @@
     {
       "name": "Radio Maryja",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10248,6 +10535,7 @@
     {
       "name": "La 7 HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10275,6 +10563,7 @@
     {
       "name": "TV3 Cataluna HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10302,6 +10591,7 @@
     {
       "name": "TeleMadrid Sat",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10329,6 +10619,7 @@
     {
       "name": "Television Canaria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10356,6 +10647,7 @@
     {
       "name": "CMM",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10383,6 +10675,7 @@
     {
       "name": "ORF 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10410,6 +10703,7 @@
     {
       "name": "ORF 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10437,6 +10731,7 @@
     {
       "name": "Servus TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10464,6 +10759,7 @@
     {
       "name": "DF1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10491,6 +10787,7 @@
     {
       "name": "ORF HITRADIO OE3",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10518,6 +10815,7 @@
     {
       "name": "RIC",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10545,6 +10843,7 @@
     {
       "name": "ORF OE1",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10572,6 +10871,7 @@
     {
       "name": "ORF FM4",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10599,6 +10899,7 @@
     {
       "name": "ORF WIEN",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10626,6 +10927,7 @@
     {
       "name": "ORF NOE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10653,6 +10955,7 @@
     {
       "name": "ORF B",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10680,6 +10983,7 @@
     {
       "name": "ORF OOE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10707,6 +11011,7 @@
     {
       "name": "ORF S",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10734,6 +11039,7 @@
     {
       "name": "ORF T",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10761,6 +11067,7 @@
     {
       "name": "ORF V",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10788,6 +11095,7 @@
     {
       "name": "ORF STMK",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10815,6 +11123,7 @@
     {
       "name": "ORF K",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10842,6 +11151,7 @@
     {
       "name": "ORF RADIO OE1 DOLBY",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10869,6 +11179,7 @@
     {
       "name": "Movistar Vamos 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10896,6 +11207,7 @@
     {
       "name": "Nova",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10923,6 +11235,7 @@
     {
       "name": "Canal Iberalia",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10950,6 +11263,7 @@
     {
       "name": "Disney Channel Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -10977,6 +11291,7 @@
     {
       "name": "Movistar Accion",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11004,6 +11319,7 @@
     {
       "name": "Movistar Comedia",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11031,6 +11347,7 @@
     {
       "name": "Movistar Drama",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11058,6 +11375,7 @@
     {
       "name": "Star Channel Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11085,6 +11403,7 @@
     {
       "name": "Movistar+ Documentales",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11112,6 +11431,7 @@
     {
       "name": "NatGeo Wild Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11139,6 +11459,7 @@
     {
       "name": "Aragón Sat",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11166,6 +11487,7 @@
     {
       "name": "La 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11193,6 +11515,7 @@
     {
       "name": "AXN Spain",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11220,6 +11543,7 @@
     {
       "name": "Movistar+ Originales",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11247,6 +11571,7 @@
     {
       "name": "3sat HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11274,6 +11599,7 @@
     {
       "name": "KiKa HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11301,6 +11627,7 @@
     {
       "name": "ZDFinfo HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11328,6 +11655,7 @@
     {
       "name": "ZDF HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11355,6 +11683,7 @@
     {
       "name": "ZDF_neo HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11382,6 +11711,7 @@
     {
       "name": "Dlf Kultur",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11409,6 +11739,7 @@
     {
       "name": "Dlf",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11436,6 +11767,7 @@
     {
       "name": "Dlf Nova",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11463,6 +11795,7 @@
     {
       "name": "DRadio Dok&Deb",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11490,6 +11823,7 @@
     {
       "name": "CGTN HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11517,6 +11851,7 @@
     {
       "name": "CGTN Documentary",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11544,6 +11879,7 @@
     {
       "name": "CGTN Français HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11571,6 +11907,7 @@
     {
       "name": "Euronews German",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11598,6 +11935,7 @@
     {
       "name": "CNBC Europe HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11625,6 +11963,7 @@
     {
       "name": "NAIZ irratia",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11652,6 +11991,7 @@
     {
       "name": "Daystar TV Español",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11679,6 +12019,7 @@
     {
       "name": "Telesur English",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11706,6 +12047,7 @@
     {
       "name": "RTL UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11733,6 +12075,7 @@
     {
       "name": "Sat 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11760,6 +12103,7 @@
     {
       "name": "Prosieben HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11787,6 +12131,7 @@
     {
       "name": "Kabel 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11814,6 +12159,7 @@
     {
       "name": "Sixx HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11841,6 +12187,7 @@
     {
       "name": "ProSieben MAXX HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11868,6 +12215,7 @@
     {
       "name": "Kabel Eins Doku HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11895,6 +12243,7 @@
     {
       "name": "SAT.1 Gold HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11922,6 +12271,7 @@
     {
       "name": "Kabel eins HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11949,6 +12299,7 @@
     {
       "name": "Kabel 1 Doku HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -11976,6 +12327,7 @@
     {
       "name": "Das Erste HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12003,6 +12355,7 @@
     {
       "name": "Arte HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12030,6 +12383,7 @@
     {
       "name": "Südwest Fernsehen Baden-Württemberg HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12057,6 +12411,7 @@
     {
       "name": "Sudwest Fernsehen Rheinland-Pfalz HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12084,6 +12439,7 @@
     {
       "name": "WDR HD Köln",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12111,6 +12467,7 @@
     {
       "name": "WDR HD Aachen",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12138,6 +12495,7 @@
     {
       "name": "WDR HD Bielefeld",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12165,6 +12523,7 @@
     {
       "name": "WDR HD Bonn",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12192,6 +12551,7 @@
     {
       "name": "WDR HD Dortmund",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12219,6 +12579,7 @@
     {
       "name": "WDR HD Duisburg",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12246,6 +12607,7 @@
     {
       "name": "WDR HD Düsseldorf",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12273,6 +12635,7 @@
     {
       "name": "WDR HD Essen",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12300,6 +12663,7 @@
     {
       "name": "WDR HD Münster",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12327,6 +12691,7 @@
     {
       "name": "WDR HD Siegen",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12354,6 +12719,7 @@
     {
       "name": "WDR HD Wuppertal",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12381,6 +12747,7 @@
     {
       "name": "Arirang TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12408,6 +12775,7 @@
     {
       "name": "France 24 (en Français)",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12435,6 +12803,7 @@
     {
       "name": "France 24 (in English)",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12462,6 +12831,7 @@
     {
       "name": "TV5 Monde Europe HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12489,6 +12859,7 @@
     {
       "name": "TRT World HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12516,6 +12887,7 @@
     {
       "name": "a.tv",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12543,6 +12915,7 @@
     {
       "name": "münchen.tv HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12570,6 +12943,7 @@
     {
       "name": "RFO (Germany)",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12597,6 +12971,7 @@
     {
       "name": "a.tv HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12624,6 +12999,7 @@
     {
       "name": "intv",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12651,6 +13027,7 @@
     {
       "name": "Niederbayern TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12678,6 +13055,7 @@
     {
       "name": "TVA-OTV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12705,6 +13083,7 @@
     {
       "name": "Franken Plus HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12732,6 +13111,7 @@
     {
       "name": "Bayerisches Fernsehen Süd HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12759,6 +13139,7 @@
     {
       "name": "Bayerisches Fernsehen Nord HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12786,6 +13167,7 @@
     {
       "name": "NDR Niedersachsen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12813,6 +13195,7 @@
     {
       "name": "NDR Mecklenburg-Vorpommern HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12840,6 +13223,7 @@
     {
       "name": "NDR Hamburg HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12867,6 +13251,7 @@
     {
       "name": "NDR Schleswig Holstein HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12894,6 +13279,7 @@
     {
       "name": "Phoenix HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12921,6 +13307,7 @@
     {
       "name": "Sat 1 HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12948,6 +13335,7 @@
     {
       "name": "ProSieben HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -12975,6 +13363,7 @@
     {
       "name": "Puls 4 HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13002,6 +13391,7 @@
     {
       "name": "Puls 24 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13029,6 +13419,7 @@
     {
       "name": "4mediathek",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13056,6 +13447,7 @@
     {
       "name": "Sixx Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13083,6 +13475,7 @@
     {
       "name": "SAT.1 Gold Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13110,6 +13503,7 @@
     {
       "name": "ProSieben MAXX Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13137,6 +13531,7 @@
     {
       "name": "Kabel 1 Doku Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13164,6 +13559,7 @@
     {
       "name": "DLF USI2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13191,6 +13587,7 @@
     {
       "name": "DLFK USI2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13218,6 +13615,7 @@
     {
       "name": "NRW Enc1 Ltg-Dssd.",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13245,6 +13643,7 @@
     {
       "name": "CNN International Europe",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13272,6 +13671,7 @@
     {
       "name": "Heimatkanal",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13299,6 +13699,7 @@
     {
       "name": "Beate-Uhse.TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13326,6 +13727,7 @@
     {
       "name": "Sky Cinema Feelgood",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13353,6 +13755,7 @@
     {
       "name": "Sky Sport Mix HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13380,6 +13783,7 @@
     {
       "name": "Sky 1 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13407,6 +13811,7 @@
     {
       "name": "Sky Sport Bundesliga 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13434,6 +13839,7 @@
     {
       "name": "Sky Sport 2 Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13461,6 +13867,7 @@
     {
       "name": "Sky Sport Austria 3 HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13488,6 +13895,7 @@
     {
       "name": "Crime + Investigation Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13515,6 +13923,7 @@
     {
       "name": "Romance TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13542,6 +13951,7 @@
     {
       "name": "DW English HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13569,6 +13979,7 @@
     {
       "name": "TV Monaco",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13596,6 +14007,7 @@
     {
       "name": "Cubavision Internacional",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13623,6 +14035,7 @@
     {
       "name": "CNN International Europe",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13650,6 +14063,7 @@
     {
       "name": "Universal HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13677,6 +14091,7 @@
     {
       "name": "Warner TV Serie HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13704,6 +14119,7 @@
     {
       "name": "Sky Sport Bundesliga 8 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13731,6 +14147,7 @@
     {
       "name": "Sky Sport 8 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13758,6 +14175,7 @@
     {
       "name": "Sky Sport Austria 6 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13785,6 +14203,7 @@
     {
       "name": "Sky Sport Bundesliga UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13812,6 +14231,7 @@
     {
       "name": "Sky Sport UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13839,6 +14259,7 @@
     {
       "name": "Dokusat",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13866,6 +14287,7 @@
     {
       "name": "Volksmusik TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13893,6 +14315,7 @@
     {
       "name": "Astra Vision",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -13920,6 +14343,7 @@
     {
       "name": "NRJ Hits",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13947,6 +14371,7 @@
     {
       "name": "Golf+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -13974,6 +14399,7 @@
     {
       "name": "France 3 Bretagne",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14001,6 +14427,7 @@
     {
       "name": "RMC Découverte",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14028,6 +14455,7 @@
     {
       "name": "beIN Sport 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14055,6 +14483,7 @@
     {
       "name": "beIN Sports 3 HD France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14082,6 +14511,7 @@
     {
       "name": "TFX",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14109,6 +14539,7 @@
     {
       "name": "TMC HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14136,6 +14567,7 @@
     {
       "name": "France 2 UHD HDR",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14163,6 +14595,7 @@
     {
       "name": "BFM TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14190,6 +14623,7 @@
     {
       "name": "Canal+ Live 7",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14217,6 +14651,7 @@
     {
       "name": "Canal+ Live 8",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14244,6 +14679,7 @@
     {
       "name": "Canal+ Live 9",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14271,6 +14707,7 @@
     {
       "name": "RMC Story",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14298,6 +14735,7 @@
     {
       "name": "L´Equipe TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14325,6 +14763,7 @@
     {
       "name": "Canal+ Grand Ecran",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14352,6 +14791,7 @@
     {
       "name": "France 3 Aquitaine",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14379,6 +14819,7 @@
     {
       "name": "Canal+ Live 10",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14406,6 +14847,7 @@
     {
       "name": "Canal+ Box Office UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14433,6 +14875,7 @@
     {
       "name": "Canal+ Live 6",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14460,6 +14903,7 @@
     {
       "name": "Arte HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14487,6 +14931,7 @@
     {
       "name": "Gulli HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14514,6 +14959,7 @@
     {
       "name": "Sky Crime HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14541,6 +14987,7 @@
     {
       "name": "Sky Sport F1 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14568,6 +15015,7 @@
     {
       "name": "Sky Nature HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14595,6 +15043,7 @@
     {
       "name": "Sky Sport Top Event HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14622,6 +15071,7 @@
     {
       "name": "National Geographic HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14649,6 +15099,7 @@
     {
       "name": "Sky Cinema Premieren HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14676,6 +15127,7 @@
     {
       "name": "Sky Sport Austria 8",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14703,6 +15155,7 @@
     {
       "name": "Sky Sport Bundesliga 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14730,6 +15183,7 @@
     {
       "name": "Sky Sport 1 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14757,6 +15211,7 @@
     {
       "name": "Sky Sport Bundesliga 6",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14784,6 +15239,7 @@
     {
       "name": "Sky Sport 6 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -14811,6 +15267,7 @@
     {
       "name": "MTV HD France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14838,6 +15295,7 @@
     {
       "name": "TV5 Monde FBS HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14865,6 +15323,7 @@
     {
       "name": "France 3 Picardie",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14892,6 +15351,7 @@
     {
       "name": "France 3 Paris Ile-de-France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14919,6 +15379,7 @@
     {
       "name": "France 3 Poitou-Charentes",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14946,6 +15407,7 @@
     {
       "name": "Canal+ Promo",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -14973,6 +15435,7 @@
     {
       "name": "Canal+ Docs",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15000,6 +15463,7 @@
     {
       "name": "France 3 Champagne-Ardennes",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15027,6 +15491,7 @@
     {
       "name": "France 3 Haute-Normandie",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15054,6 +15519,7 @@
     {
       "name": "France 3 Alsace",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15081,6 +15547,7 @@
     {
       "name": "France 3 Midi-Pyrénées",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15108,6 +15575,7 @@
     {
       "name": "Comédie+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15135,6 +15603,7 @@
     {
       "name": "Mezzo",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15162,6 +15631,7 @@
     {
       "name": "France 3 Franche-Comté",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15189,6 +15659,7 @@
     {
       "name": "France 3 Bourgogne",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15216,6 +15687,7 @@
     {
       "name": "France 3 Alpes",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15243,6 +15715,7 @@
     {
       "name": "France 3 Limousin",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15270,6 +15743,7 @@
     {
       "name": "France 3 Lorraine",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15297,6 +15771,7 @@
     {
       "name": "Novo 19",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15324,6 +15799,7 @@
     {
       "name": "France 3 Nouvelle Aquitaine",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15351,6 +15827,7 @@
     {
       "name": "France 3 Orléans",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15378,6 +15855,7 @@
     {
       "name": "France 3 Nice",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15405,6 +15883,7 @@
     {
       "name": "DFB.TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15432,6 +15911,7 @@
     {
       "name": "Comedy Central HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15459,6 +15939,7 @@
     {
       "name": "MTV HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15486,6 +15967,7 @@
     {
       "name": "MTV Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15513,6 +15995,7 @@
     {
       "name": "Comedy Central Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15540,6 +16023,7 @@
     {
       "name": "Comedy Central +1 Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15567,6 +16051,7 @@
     {
       "name": "Nickelodeon Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15594,6 +16079,7 @@
     {
       "name": "Nicktoons Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15621,6 +16107,7 @@
     {
       "name": "Sky Atlantic HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15648,6 +16135,7 @@
     {
       "name": "Sky Cinema Blockbuster",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15669,12 +16157,13 @@
       "pcr_pid": "255",
       "txt_pid": "35",
       "source_channel_id": 25917,
-      "updated": "2026-05-20",
+      "updated": "2026-08-14",
       "tp_id": "astra_19_2:11992.5:H:27500"
     },
     {
       "name": "Sky Documentaries HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15702,6 +16191,7 @@
     {
       "name": "Sky Sport Tennis HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15729,6 +16219,7 @@
     {
       "name": "13th Street HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15756,6 +16247,7 @@
     {
       "name": "Sky Sport Golf HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15783,6 +16275,7 @@
     {
       "name": "Sky Sport Austria 2",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15810,6 +16303,7 @@
     {
       "name": "Canal+",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15837,6 +16331,7 @@
     {
       "name": "Canal+ Cinéma(s) HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15864,6 +16359,7 @@
     {
       "name": "Canal+ Sport HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15891,6 +16387,7 @@
     {
       "name": "Canal+ Kids",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15918,6 +16415,7 @@
     {
       "name": "Cine+ Frisson HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15945,6 +16443,7 @@
     {
       "name": "Cine+ Classic HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15972,6 +16471,7 @@
     {
       "name": "Canal+ Box Office",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -15999,6 +16499,7 @@
     {
       "name": "Canal+ UHD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16026,6 +16527,7 @@
     {
       "name": "France 3 Corse Via Stella",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16053,6 +16555,7 @@
     {
       "name": "Canal+ Foot",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16080,6 +16583,7 @@
     {
       "name": "Sky Krimi HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16107,6 +16611,7 @@
     {
       "name": "Sky Cinema Action HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16134,6 +16639,7 @@
     {
       "name": "NatGeo Wild HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16161,6 +16667,7 @@
     {
       "name": "Warner TV Film HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16188,6 +16695,7 @@
     {
       "name": "Sky Sport Austria 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16215,6 +16723,7 @@
     {
       "name": "Sky Sport Premier League HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16242,6 +16751,7 @@
     {
       "name": "Sky Sport Bundesliga 4 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16269,6 +16779,7 @@
     {
       "name": "Sky Sport 4 Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16296,6 +16807,7 @@
     {
       "name": "Sky Sport Bundesliga 5 HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16323,6 +16835,7 @@
     {
       "name": "Sky Sport 5 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16350,6 +16863,7 @@
     {
       "name": "Prime Sportsbar",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16377,6 +16891,7 @@
     {
       "name": "ProSieben Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16404,6 +16919,7 @@
     {
       "name": "Kabel 1 Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16431,6 +16947,7 @@
     {
       "name": "Sat 1 Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16458,6 +16975,7 @@
     {
       "name": "Puls 4 Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16485,6 +17003,7 @@
     {
       "name": "Sat 1 Hamburg / Schleswig Holstein",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -16512,6 +17031,7 @@
     {
       "name": "France 3 Provence-Alpes",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16539,6 +17059,7 @@
     {
       "name": "Eurosport 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16566,6 +17087,7 @@
     {
       "name": "Planète+ C.I. HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16593,6 +17115,7 @@
     {
       "name": "Trace Urban HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16620,6 +17143,7 @@
     {
       "name": "Canal+ Sport 360",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16647,6 +17171,7 @@
     {
       "name": "France 3 Auvergne",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16674,6 +17199,7 @@
     {
       "name": "Melody HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16701,6 +17227,7 @@
     {
       "name": "Nickelodeon HD France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16728,6 +17255,7 @@
     {
       "name": "Dorcel XXX HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16755,6 +17283,7 @@
     {
       "name": "Dorcel TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16782,6 +17311,7 @@
     {
       "name": "Canal+ Live 5",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16809,6 +17339,7 @@
     {
       "name": "Canal+ Live 4",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16836,6 +17367,7 @@
     {
       "name": "Piwi+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16863,6 +17395,7 @@
     {
       "name": "RFM TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16890,6 +17423,7 @@
     {
       "name": "Planète+ A&E HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16917,6 +17451,7 @@
     {
       "name": "Xplore",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16944,6 +17479,7 @@
     {
       "name": "DYN Sport Mix",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16971,6 +17507,7 @@
     {
       "name": "One Terra",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -16998,6 +17535,7 @@
     {
       "name": "Deluxe Rap",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17025,6 +17563,7 @@
     {
       "name": "Deluxe Dance by Kontor",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17052,6 +17591,7 @@
     {
       "name": "Just Cooking",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17079,6 +17619,7 @@
     {
       "name": "Just Fishing",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17106,6 +17647,7 @@
     {
       "name": "Höhenrausch",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17133,6 +17675,7 @@
     {
       "name": "Crime Time",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17160,6 +17703,7 @@
     {
       "name": "Serien+",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17187,6 +17731,7 @@
     {
       "name": "Deluxe Music",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17214,6 +17759,7 @@
     {
       "name": "TLC Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17241,6 +17787,7 @@
     {
       "name": "DMAX Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17268,6 +17815,7 @@
     {
       "name": "ROCK ANTENNE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17295,6 +17843,7 @@
     {
       "name": "sunshine live",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17322,6 +17871,7 @@
     {
       "name": "ANTENNE BAYERN",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17349,6 +17899,7 @@
     {
       "name": "OLDIE ANTENNE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17376,6 +17927,7 @@
     {
       "name": "Shop LC",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17403,6 +17955,7 @@
     {
       "name": "MediaShop - Meine Einkaufswelt",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17430,6 +17983,7 @@
     {
       "name": "OCS",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17457,6 +18011,7 @@
     {
       "name": "M6 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17484,6 +18039,7 @@
     {
       "name": "W9 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17511,6 +18067,7 @@
     {
       "name": "France 2 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17538,6 +18095,7 @@
     {
       "name": "LCP HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17565,6 +18123,7 @@
     {
       "name": "France 3 Sat HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17592,6 +18151,7 @@
     {
       "name": "TF 1",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17619,6 +18179,7 @@
     {
       "name": "Eurosport 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17646,6 +18207,7 @@
     {
       "name": "BeIN Sport 1 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17673,6 +18235,7 @@
     {
       "name": "France 3 Languedoc Roussillon",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17700,6 +18263,7 @@
     {
       "name": "France 4 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17727,6 +18291,7 @@
     {
       "name": "France 3 Rhone-Alpes",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17754,6 +18319,7 @@
     {
       "name": "France 3 Nord Pas-de-Calais",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -17781,6 +18347,7 @@
     {
       "name": "RTL Television",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17808,6 +18375,7 @@
     {
       "name": "RTL Nordrhein Westfalen",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17835,6 +18403,7 @@
     {
       "name": "RTL Bremen & Land Niedersachsen",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17862,6 +18431,7 @@
     {
       "name": "RTL 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17889,6 +18459,7 @@
     {
       "name": "TOGGO plus",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17916,6 +18487,7 @@
     {
       "name": "Super RTL",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17943,6 +18515,7 @@
     {
       "name": "VOX",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17970,6 +18543,7 @@
     {
       "name": "RTL Nitro",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -17997,6 +18571,7 @@
     {
       "name": "RTLup",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18024,6 +18599,7 @@
     {
       "name": "n-tv",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18051,6 +18627,7 @@
     {
       "name": "TOGGO Radio",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18078,6 +18655,7 @@
     {
       "name": "T18",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18105,6 +18683,7 @@
     {
       "name": "Paris Première HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18132,6 +18711,7 @@
     {
       "name": "Teletoon+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18159,6 +18739,7 @@
     {
       "name": "Planète+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18186,6 +18767,7 @@
     {
       "name": "France 3 Caen",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18213,6 +18795,7 @@
     {
       "name": "France 5 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18240,6 +18823,7 @@
     {
       "name": "LCI HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18267,6 +18851,7 @@
     {
       "name": "Infosport+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18294,6 +18879,7 @@
     {
       "name": "France 3 Nantes",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18321,6 +18907,7 @@
     {
       "name": "CStar HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18348,6 +18935,7 @@
     {
       "name": "CNews HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18375,6 +18963,7 @@
     {
       "name": "XXL",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18402,6 +18991,7 @@
     {
       "name": "Canal+ Foot UHD HDR",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18429,6 +19019,7 @@
     {
       "name": "RTL Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18456,6 +19047,7 @@
     {
       "name": "VOX Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18483,6 +19075,7 @@
     {
       "name": "RTL 2 Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18510,6 +19103,7 @@
     {
       "name": "Super RTL Österreich",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18537,6 +19131,7 @@
     {
       "name": "VOXup",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18564,6 +19159,7 @@
     {
       "name": "Eurosport Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18591,6 +19187,7 @@
     {
       "name": "HSE24 Extra",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -18618,6 +19215,7 @@
     {
       "name": "SUD RADIO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18645,6 +19243,7 @@
     {
       "name": "BBCW SERVICE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18672,6 +19271,7 @@
     {
       "name": "RADIO MELODY",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18699,6 +19299,7 @@
     {
       "name": "MOUV",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18726,6 +19327,7 @@
     {
       "name": "FRANCE MUSIQUE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18753,6 +19355,7 @@
     {
       "name": "FIP",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18780,6 +19383,7 @@
     {
       "name": "FRANCE INFO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18807,6 +19411,7 @@
     {
       "name": "FRANCE INTER",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18834,6 +19439,7 @@
     {
       "name": "FRANCE CULTURE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18861,6 +19467,7 @@
     {
       "name": "FRANCE BLEU",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18888,6 +19495,7 @@
     {
       "name": "RFI INTERNATIONAL",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18915,6 +19523,7 @@
     {
       "name": "RADIO CLASSIQUE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18942,6 +19551,7 @@
     {
       "name": "EUROPE 1",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18969,6 +19579,7 @@
     {
       "name": "RIRE ET CHANSONS",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -18996,6 +19607,7 @@
     {
       "name": "TSF JAZZ",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19023,6 +19635,7 @@
     {
       "name": "JAZZ RADIO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19050,6 +19663,7 @@
     {
       "name": "NOVA",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19077,6 +19691,7 @@
     {
       "name": "RADIO FG",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19104,6 +19719,7 @@
     {
       "name": "CONTACT FM",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19131,6 +19747,7 @@
     {
       "name": "NOSTALGIE",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19158,6 +19775,7 @@
     {
       "name": "NRJ",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19185,6 +19803,7 @@
     {
       "name": "RFM",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19212,6 +19831,7 @@
     {
       "name": "EUROPE 2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19239,6 +19859,7 @@
     {
       "name": "CHERIE FM",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19266,6 +19887,7 @@
     {
       "name": "SKYROCK",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19293,6 +19915,7 @@
     {
       "name": "RADIO NOTRE DAME",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19320,6 +19943,7 @@
     {
       "name": "BEUR FM",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19347,6 +19971,7 @@
     {
       "name": "Automoto La Chaine",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19374,6 +19999,7 @@
     {
       "name": "AB 1",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19401,6 +20027,7 @@
     {
       "name": "Animaux HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19428,6 +20055,7 @@
     {
       "name": "Toute l´Histoire",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19455,6 +20083,7 @@
     {
       "name": "Seasons HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19482,6 +20111,7 @@
     {
       "name": "Action HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19509,6 +20139,7 @@
     {
       "name": "RTL 9",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19536,6 +20167,7 @@
     {
       "name": "Chasse et Pêche",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19563,6 +20195,7 @@
     {
       "name": "Canal J HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19590,6 +20223,7 @@
     {
       "name": "6ter",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19617,6 +20251,7 @@
     {
       "name": "Franceinfo: HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19644,6 +20279,7 @@
     {
       "name": "TF1 Séries Films",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19671,6 +20307,7 @@
     {
       "name": "Cartoonito Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19698,6 +20335,7 @@
     {
       "name": "Sky Sport Bundesliga",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19725,6 +20363,7 @@
     {
       "name": "Sky Cinema Classics HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19752,6 +20391,7 @@
     {
       "name": "Sky Sport News HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19779,6 +20419,7 @@
     {
       "name": "Sky Sci-Fi Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19806,6 +20447,7 @@
     {
       "name": "Sky Sport Austria 7 HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19833,6 +20475,7 @@
     {
       "name": "Sky Sport 3 Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19860,6 +20503,7 @@
     {
       "name": "Sky Sport Bundesliga 7",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19887,6 +20531,7 @@
     {
       "name": "Sky Sport 7 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19914,6 +20559,7 @@
     {
       "name": "AXN Black Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -19941,6 +20587,7 @@
     {
       "name": "BeIN Sport Max 4",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19968,6 +20615,7 @@
     {
       "name": "BeIN Sport Max 5",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -19995,6 +20643,7 @@
     {
       "name": "BeIN Sport Max 6",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20022,6 +20671,7 @@
     {
       "name": "BeIN Sport Max 7",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20049,6 +20699,7 @@
     {
       "name": "BeIN Sport Max 8",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20076,6 +20727,7 @@
     {
       "name": "BeIN Sport Max 9",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20103,6 +20755,7 @@
     {
       "name": "BeIN Sport Max 10",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20130,6 +20783,7 @@
     {
       "name": "Cine+ Festival",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20157,6 +20811,7 @@
     {
       "name": "Cine+ Family",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20184,6 +20839,7 @@
     {
       "name": "Ciné+ Emotion HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20211,6 +20867,7 @@
     {
       "name": "Série Club HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20238,6 +20895,7 @@
     {
       "name": "Vixen HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20265,6 +20923,7 @@
     {
       "name": "Union TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20292,6 +20951,7 @@
     {
       "name": "Novelas TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20313,12 +20973,13 @@
       "pcr_pid": "1610",
       "txt_pid": "",
       "source_channel_id": 16761,
-      "updated": "2025-12-03",
+      "updated": "2026-08-20",
       "tp_id": "astra_19_2:12324:V:29700"
     },
     {
       "name": "La chaîne Météo HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20346,6 +21007,7 @@
     {
       "name": "Canal+ Live 3",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20373,6 +21035,7 @@
     {
       "name": "Eurosport 1 HD Germany & Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20400,6 +21063,7 @@
     {
       "name": "DMAX HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20427,6 +21091,7 @@
     {
       "name": "DMAX HD Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20454,6 +21119,7 @@
     {
       "name": "Tele 5 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20481,6 +21147,7 @@
     {
       "name": "TELE 5 HD Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20508,6 +21175,7 @@
     {
       "name": "TLC HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20535,6 +21203,7 @@
     {
       "name": "HGTV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -20562,6 +21231,7 @@
     {
       "name": "History Channel HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20589,6 +21259,7 @@
     {
       "name": "DAZN 2 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20616,6 +21287,7 @@
     {
       "name": "DAZN 1 HD Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20643,6 +21315,7 @@
     {
       "name": "Warner TV Comedy HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20670,6 +21343,7 @@
     {
       "name": "Sky Showcase Germany",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20697,6 +21371,7 @@
     {
       "name": "Motorvision",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20724,6 +21399,7 @@
     {
       "name": "Sky Sport Bundesliga 9 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20751,6 +21427,7 @@
     {
       "name": "Sky Sport 9 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20778,6 +21455,7 @@
     {
       "name": "Sky Sport Austria 4",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20805,6 +21483,7 @@
     {
       "name": "Sky Sport Bundesliga 10",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20832,6 +21511,7 @@
     {
       "name": "Sky Sport Austria 5 HD",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20859,6 +21539,7 @@
     {
       "name": "Jukebox",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20886,6 +21567,7 @@
     {
       "name": "Cartoon Network Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20913,6 +21595,7 @@
     {
       "name": "AXN White Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20940,6 +21623,7 @@
     {
       "name": "Canal+ Live 1",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20967,6 +21651,7 @@
     {
       "name": "A la Une HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -20994,6 +21679,7 @@
     {
       "name": "Polar+",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21021,6 +21707,7 @@
     {
       "name": "Nicktoons France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21048,6 +21735,7 @@
     {
       "name": "Nick Jr HD France",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21075,6 +21763,7 @@
     {
       "name": "Equidia",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21102,6 +21791,7 @@
     {
       "name": "Mezzo Live HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21129,6 +21819,7 @@
     {
       "name": "Man X",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21156,6 +21847,7 @@
     {
       "name": "Téva HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21183,6 +21875,7 @@
     {
       "name": "Pink X HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21210,6 +21903,7 @@
     {
       "name": "Canal Evenement Metropole",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21237,6 +21931,7 @@
     {
       "name": "Canal+ Live 2",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21264,6 +21959,7 @@
     {
       "name": "Europe 2 Pop TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21291,6 +21987,7 @@
     {
       "name": "Europe 1 TV",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21318,6 +22015,7 @@
     {
       "name": "Astra Vision",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21345,6 +22043,7 @@
     {
       "name": "N24 Doku",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21372,6 +22071,7 @@
     {
       "name": "EWTN Europe",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21399,6 +22099,7 @@
     {
       "name": "Klassik Radio",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21426,6 +22127,7 @@
     {
       "name": "Handystar TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21453,6 +22155,7 @@
     {
       "name": "Telegold 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21480,6 +22183,7 @@
     {
       "name": "Anixe HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21507,6 +22211,7 @@
     {
       "name": "TLC Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21534,6 +22239,7 @@
     {
       "name": "Deutsches Musik Fernsehen",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21561,6 +22267,7 @@
     {
       "name": "Disney Channel Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21588,6 +22295,7 @@
     {
       "name": "QVC Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21615,6 +22323,7 @@
     {
       "name": "Sonnenklar TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21642,6 +22351,7 @@
     {
       "name": "Home Shopping Europe Deutschland",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21669,6 +22379,7 @@
     {
       "name": "Handystar TV 2",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21696,6 +22407,7 @@
     {
       "name": "Regio TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21723,6 +22435,7 @@
     {
       "name": "Tele 5",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21750,6 +22463,7 @@
     {
       "name": "DMAX",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21777,6 +22491,7 @@
     {
       "name": "Baden TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21804,6 +22519,7 @@
     {
       "name": "HSE24 Trend",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21831,6 +22547,7 @@
     {
       "name": "Spirit TV Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21858,6 +22575,7 @@
     {
       "name": "Sport 1 Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1P",
       "position": "19.2E",
@@ -21885,6 +22603,7 @@
     {
       "name": "BVN - Beste van Vlaanderen en Nederland",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21912,6 +22631,7 @@
     {
       "name": "AB 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21939,6 +22659,7 @@
     {
       "name": "Inplus",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21966,6 +22687,7 @@
     {
       "name": "Inplus",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -21993,6 +22715,7 @@
     {
       "name": "Hustler TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22020,6 +22743,7 @@
     {
       "name": "Nostalgie",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22047,6 +22771,7 @@
     {
       "name": "Bergblick",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22074,6 +22799,7 @@
     {
       "name": "VRT Radio1",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22101,6 +22827,7 @@
     {
       "name": "VRT Radio2",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22128,6 +22855,7 @@
     {
       "name": "Canal+ Action Nederland",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22155,6 +22883,7 @@
     {
       "name": "Canal+ Action Nederland",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22182,6 +22911,7 @@
     {
       "name": "Canal+ Golf Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22209,6 +22939,7 @@
     {
       "name": "NRJ",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22236,6 +22967,7 @@
     {
       "name": "Sat 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22263,6 +22995,7 @@
     {
       "name": "ProSieben",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22290,6 +23023,7 @@
     {
       "name": "Kabel 1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22317,6 +23051,7 @@
     {
       "name": "Welt",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22344,6 +23079,7 @@
     {
       "name": "SAT 1 Gold",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22371,6 +23107,7 @@
     {
       "name": "ProSieben MAXX",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22398,6 +23135,7 @@
     {
       "name": "Sixx",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22425,6 +23163,7 @@
     {
       "name": "Kabel 1 Doku",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22452,6 +23191,7 @@
     {
       "name": "QVC Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22479,6 +23219,7 @@
     {
       "name": "Bibel TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22506,6 +23247,7 @@
     {
       "name": "Canal Algérie",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22533,6 +23275,7 @@
     {
       "name": "Algerie 3",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22560,6 +23303,7 @@
     {
       "name": "RMC Life",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22587,6 +23331,7 @@
     {
       "name": "SonLife Broadcasting Network",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22614,6 +23359,7 @@
     {
       "name": "Sonnenklar.TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22641,6 +23387,7 @@
     {
       "name": "Tele 5 HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22668,6 +23415,7 @@
     {
       "name": "DMAX HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22695,6 +23443,7 @@
     {
       "name": "Juwelo HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22722,6 +23471,7 @@
     {
       "name": "Pearl.tv HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22749,6 +23499,7 @@
     {
       "name": "TELE 5 HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22776,6 +23527,7 @@
     {
       "name": "DMAX HD Austria",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22803,6 +23555,7 @@
     {
       "name": "Bloomberg Europe",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22830,6 +23583,7 @@
     {
       "name": "Radio Horeb",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22857,6 +23611,7 @@
     {
       "name": "Sky News International",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22884,6 +23639,7 @@
     {
       "name": "RTL RADIO",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22911,6 +23667,7 @@
     {
       "name": "Telegold",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22938,6 +23695,7 @@
     {
       "name": "Shop LC",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22965,6 +23723,7 @@
     {
       "name": "Sex Kontakte",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -22992,6 +23751,7 @@
     {
       "name": "Babestation24 (Germany)",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23019,6 +23779,7 @@
     {
       "name": "ffn",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23046,6 +23807,7 @@
     {
       "name": "Radio Paloma",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23073,6 +23835,7 @@
     {
       "name": "Radio HBR",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23100,6 +23863,7 @@
     {
       "name": "Radio HCJB",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23127,6 +23891,7 @@
     {
       "name": "One Terra HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23154,6 +23919,7 @@
     {
       "name": "Xplore HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23181,6 +23947,7 @@
     {
       "name": "Deluxe Dance by Kontor HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23208,6 +23975,7 @@
     {
       "name": "Deluxe Flashback HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23235,6 +24003,7 @@
     {
       "name": "Just Cooking HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23262,6 +24031,7 @@
     {
       "name": "Deluxe Rock HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23289,6 +24059,7 @@
     {
       "name": "Deluxe Rap HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23316,6 +24087,7 @@
     {
       "name": "RTL Nitro Austria",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23343,6 +24115,7 @@
     {
       "name": "Dokusat",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23370,6 +24143,7 @@
     {
       "name": "LT1",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23397,6 +24171,7 @@
     {
       "name": "Shop LC",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23424,6 +24199,7 @@
     {
       "name": "Genius TV Germany",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23451,6 +24227,7 @@
     {
       "name": "JOYN Mediathek",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23478,6 +24255,7 @@
     {
       "name": "L-TV",
       "type": "TV",
+      "quality": "UNKNOWN",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23505,6 +24283,7 @@
     {
       "name": "RADIO MARIA",
       "type": "RADIO",
+      "quality": "RADIO",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23532,6 +24311,7 @@
     {
       "name": "EWTN katholisches TV HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23559,6 +24339,7 @@
     {
       "name": "Just Fishing HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23586,6 +24367,7 @@
     {
       "name": "Crime Time HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23613,6 +24395,7 @@
     {
       "name": "Serien+ HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23640,6 +24423,7 @@
     {
       "name": "Deluxe Lounge HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",
@@ -23667,6 +24451,7 @@
     {
       "name": "Höhenrausch HD",
       "type": "TV",
+      "quality": "HD",
       "satellite_group": "Astra 1M/1N/1P",
       "spacecraft": "Astra 1N",
       "position": "19.2E",

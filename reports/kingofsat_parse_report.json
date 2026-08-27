@@ -1,30 +1,38 @@
 {
-  "generated_utc": "2026-07-23T11:42:53.377565+00:00",
+  "generated_utc": "2026-08-27T11:58:48.611296+00:00",
   "source": "KingOfSat",
   "satellites": [
     {
       "id": "astra_19_2",
       "transponders": 86,
-      "channels": 813,
-      "tv": 684,
+      "channels": 812,
+      "tv": 683,
       "radio": 129,
-      "source_updated": "2026-07-23"
+      "source_updated": "2026-08-20"
     },
     {
       "id": "hotbird_13",
       "transponders": 72,
-      "channels": 1222,
-      "tv": 959,
-      "radio": 263,
-      "source_updated": "2026-07-23"
+      "channels": 1216,
+      "tv": 960,
+      "radio": 256,
+      "source_updated": "2026-08-26"
     },
     {
       "id": "hellas_39",
       "transponders": 32,
-      "channels": 594,
+      "channels": 593,
       "tv": 555,
-      "radio": 39,
-      "source_updated": "2026-07-02"
+      "radio": 38,
+      "source_updated": "2026-08-17"
+    },
+    {
+      "id": "azerspace_46",
+      "transponders": 30,
+      "channels": 137,
+      "tv": 68,
+      "radio": 69,
+      "source_updated": "2026-08-25"
     }
   ]
 }
