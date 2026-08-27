@@ -16,5 +16,11 @@
     "name": "Hellas Sat 3/4",
     "position": "39.0E",
     "url": "https://tr.kingofsat.net/pos-39E"
+  },
+  {
+    "id": "azerspace_46",
+    "name": "Azerspace-1",
+    "position": "46.0E",
+    "url": "https://tr.kingofsat.net/pos-46E"
   }
 ]
