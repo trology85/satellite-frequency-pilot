@@ -40,5 +40,11 @@
     "name": "Astra 2E/2F/2G",
     "position": "28.2E",
     "url": "https://tr.kingofsat.net/pos-28.2E"
+  },
+  {
+    "id": "thor_1w",
+    "name": "Thor 5/6/7 / Intelsat 10-02",
+    "position": "0.8W",
+    "url": "https://tr.kingofsat.net/pos-1W"
   }
 ]
