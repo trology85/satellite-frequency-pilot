@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-08-27T12:52:25.666083+00:00",
+  "generated_utc": "2026-08-28T12:25:00.413763+00:00",
   "source": {
     "name": "KingOfSat",
     "url": "https://tr.kingofsat.net/pos-16E",
@@ -551,7 +551,7 @@
       "modulation": "8PSK",
       "symbol_rate": 30000,
       "fec": "5/6",
-      "network": "74.4 Mb/s",
+      "network": "Eutelsat 16A , 74.4 Mb/s",
       "nid": "366",
       "tid": "50600",
       "channel_count": 28,

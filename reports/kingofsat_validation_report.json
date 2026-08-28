@@ -5,11 +5,11 @@
     {
       "id": "astra_19_2",
       "ok": true,
-      "transponders": 86,
-      "channels": 812,
-      "tv": 683,
+      "transponders": 87,
+      "channels": 813,
+      "tv": 684,
       "radio": 129,
-      "source_updated": "2026-08-20",
+      "source_updated": "2026-08-27",
       "forbidden_records": 0,
       "missing_core_fields": 0
     },
@@ -17,10 +17,10 @@
       "id": "hotbird_13",
       "ok": true,
       "transponders": 72,
-      "channels": 1216,
-      "tv": 960,
+      "channels": 1210,
+      "tv": 954,
       "radio": 256,
-      "source_updated": "2026-08-26",
+      "source_updated": "2026-08-27",
       "forbidden_records": 0,
       "missing_core_fields": 0
     },
@@ -54,6 +54,17 @@
       "tv": 639,
       "radio": 141,
       "source_updated": "2026-08-18",
+      "forbidden_records": 0,
+      "missing_core_fields": 0
+    },
+    {
+      "id": "astra_23_5",
+      "ok": true,
+      "transponders": 24,
+      "channels": 601,
+      "tv": 497,
+      "radio": 104,
+      "source_updated": "2026-08-19",
       "forbidden_records": 0,
       "missing_core_fields": 0
     }
