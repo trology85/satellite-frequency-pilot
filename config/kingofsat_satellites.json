@@ -28,5 +28,11 @@
     "name": "Eutelsat 16A",
     "position": "16.0E",
     "url": "https://tr.kingofsat.net/pos-16E"
+  },
+  {
+    "id": "astra_23_5",
+    "name": "Astra 3B/3C",
+    "position": "23.5E",
+    "url": "https://tr.kingofsat.net/pos-23.5E"
   }
 ]
