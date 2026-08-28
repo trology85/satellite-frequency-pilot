@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-28T13:03:38.455008+00:00",
+  "generated_utc": "2026-08-28T13:48:20.829091+00:00",
   "source": "KingOfSat",
   "satellites": [
     {
@@ -56,6 +56,14 @@
       "channels": 525,
       "tv": 474,
       "radio": 51,
+      "source_updated": "2026-08-28"
+    },
+    {
+      "id": "thor_1w",
+      "transponders": 60,
+      "channels": 791,
+      "tv": 687,
+      "radio": 104,
       "source_updated": "2026-08-28"
     }
   ]

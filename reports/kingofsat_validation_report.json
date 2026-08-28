@@ -78,6 +78,17 @@
       "source_updated": "2026-08-28",
       "forbidden_records": 0,
       "missing_core_fields": 0
+    },
+    {
+      "id": "thor_1w",
+      "ok": true,
+      "transponders": 60,
+      "channels": 791,
+      "tv": 687,
+      "radio": 104,
+      "source_updated": "2026-08-28",
+      "forbidden_records": 0,
+      "missing_core_fields": 0
     }
   ]
 }
