@@ -89,6 +89,17 @@
       "source_updated": "2026-08-28",
       "forbidden_records": 0,
       "missing_core_fields": 0
+    },
+    {
+      "id": "turkmenalem_52",
+      "ok": true,
+      "transponders": 17,
+      "channels": 309,
+      "tv": 302,
+      "radio": 7,
+      "source_updated": "2026-08-28",
+      "forbidden_records": 0,
+      "missing_core_fields": 0
     }
   ]
 }

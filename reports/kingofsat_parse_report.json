@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-28T13:48:20.829091+00:00",
+  "generated_utc": "2026-08-28T14:26:35.287032+00:00",
   "source": "KingOfSat",
   "satellites": [
     {
@@ -64,6 +64,14 @@
       "channels": 791,
       "tv": 687,
       "radio": 104,
+      "source_updated": "2026-08-28"
+    },
+    {
+      "id": "turkmenalem_52",
+      "transponders": 17,
+      "channels": 309,
+      "tv": 302,
+      "radio": 7,
       "source_updated": "2026-08-28"
     }
   ]
