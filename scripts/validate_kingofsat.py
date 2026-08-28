@@ -11,7 +11,7 @@ MINIMUMS = {
     "hellas_39": {"channels": 20, "transponders": 5},
     "azerspace_46": {"channels": 50, "transponders": 10},
     "eutelsat_16": {"channels": 500, "transponders": 35},
-    "astra_23_5": {"channels": 400, "transponders": 25},
+    "astra_23_5": {"channels": 400, "transponders": 20},
 }
 
 for sat in CONFIG:
