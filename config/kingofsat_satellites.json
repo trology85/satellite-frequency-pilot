@@ -34,5 +34,11 @@
     "name": "Astra 3B/3C",
     "position": "23.5E",
     "url": "https://tr.kingofsat.net/pos-23.5E"
+  },
+  {
+    "id": "astra_28_2",
+    "name": "Astra 2E/2F/2G",
+    "position": "28.2E",
+    "url": "https://tr.kingofsat.net/pos-28.2E"
   }
 ]
