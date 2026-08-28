@@ -67,6 +67,17 @@
       "source_updated": "2026-08-19",
       "forbidden_records": 0,
       "missing_core_fields": 0
+    },
+    {
+      "id": "astra_28_2",
+      "ok": true,
+      "transponders": 49,
+      "channels": 525,
+      "tv": 474,
+      "radio": 51,
+      "source_updated": "2026-08-28",
+      "forbidden_records": 0,
+      "missing_core_fields": 0
     }
   ]
 }

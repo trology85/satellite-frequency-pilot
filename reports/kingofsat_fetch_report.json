@@ -1,5 +1,5 @@
 {
-  "run_utc": "2026-08-28T12:24:22.125068+00:00",
+  "run_utc": "2026-08-28T13:03:08.754651+00:00",
   "source": "KingOfSat",
   "ok": true,
   "satellites": [
@@ -10,7 +10,7 @@
       "status": 200,
       "final_url": "https://tr.kingofsat.net/pos-19.2E",
       "title": "Astra 1M / Astra 1N / Astra 1P (19.2°E) -  - Frekanslar - KingOfSat",
-      "bytes": 1093651,
+      "bytes": 1093692,
       "frequency_rows": 123,
       "channel_rows": 1008,
       "advertised_records": 1039,
@@ -25,7 +25,7 @@
       "status": 200,
       "final_url": "https://tr.kingofsat.net/pos-13E",
       "title": "Hot Bird 13F / Hot Bird 13G (13°E) -  - Frekanslar - KingOfSat",
-      "bytes": 1507439,
+      "bytes": 1507442,
       "frequency_rows": 141,
       "channel_rows": 1480,
       "advertised_records": 1542,
@@ -55,7 +55,7 @@
       "status": 200,
       "final_url": "https://tr.kingofsat.net/pos-46E",
       "title": "Azerspace-1 (46°E) -  - Frekanslar - KingOfSat",
-      "bytes": 242379,
+      "bytes": 242378,
       "frequency_rows": 70,
       "channel_rows": 178,
       "advertised_records": 218,
@@ -70,7 +70,7 @@
       "status": 200,
       "final_url": "https://tr.kingofsat.net/pos-16E",
       "title": "Eutelsat 16A (16°E) -  - Frekanslar - KingOfSat",
-      "bytes": 944425,
+      "bytes": 944424,
       "frequency_rows": 167,
       "channel_rows": 857,
       "advertised_records": 977,
@@ -91,6 +91,21 @@
       "advertised_records": 715,
       "block_markers": [],
       "raw_file": "raw/kingofsat/astra_23_5.html",
+      "errors": []
+    },
+    {
+      "id": "astra_28_2",
+      "url": "https://tr.kingofsat.net/pos-28.2E",
+      "ok": true,
+      "status": 200,
+      "final_url": "https://tr.kingofsat.net/pos-28.2E",
+      "title": "Astra 2E / Astra 2F / Astra 2G (28.2°E) -  - Frekanslar - KingOfSat",
+      "bytes": 761811,
+      "frequency_rows": 156,
+      "channel_rows": 599,
+      "advertised_records": 706,
+      "block_markers": [],
+      "raw_file": "raw/kingofsat/astra_28_2.html",
       "errors": []
     }
   ]

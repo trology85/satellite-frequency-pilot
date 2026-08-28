@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-08-28T12:24:52.559263+00:00",
+  "generated_utc": "2026-08-28T13:03:38.455008+00:00",
   "source": "KingOfSat",
   "satellites": [
     {
@@ -49,6 +49,14 @@
       "tv": 497,
       "radio": 104,
       "source_updated": "2026-08-19"
+    },
+    {
+      "id": "astra_28_2",
+      "transponders": 49,
+      "channels": 525,
+      "tv": 474,
+      "radio": 51,
+      "source_updated": "2026-08-28"
     }
   ]
 }
