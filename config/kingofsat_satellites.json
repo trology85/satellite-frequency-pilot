@@ -46,5 +46,11 @@
     "name": "Thor 5/6/7 / Intelsat 10-02",
     "position": "0.8W",
     "url": "https://tr.kingofsat.net/pos-0.8W"
+  },
+  {
+    "id": "turkmenalem_52",
+    "name": "TurkmenÄlem / MonacoSat",
+    "position": "52.0E",
+    "url": "https://tr.kingofsat.net/pos-52E"
   }
 ]
